@@ -96,7 +96,7 @@
   <!--Evervolv Extra-->
   <project path="android" name="android" remote="napodan" revision="jellybean" />
   <!--project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="jellybean" /-->
-  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="napodan" revision="jellybean" />
+  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="github" revision="jellybean" />
   <!--project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="jellybean" /-->
   <!--project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="jellybean" /-->
   <!--project path="device/htc/jewel" name="android_device_htc_jewel" remote="github" revision="jellybean" /-->
@@ -133,7 +133,7 @@
   <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-linaro-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.7" remote="github" revision="jellybean"/-->
   <!--project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="jellybean"/-->
   <!--project path="vendor/asus" name="android_vendor_asus" remote="github" revision="jellybean"/-->
-  <project path="vendor/ev" name="android_vendor_ev" remote="napodan" revision="jellybean" />
+  <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="jellybean" />
   <!--project path="vendor/hp" name="android_vendor_hp" remote="github" revision="jellybean" /-->
   <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="jellybean" />
   <!--project path="vendor/samsung" name="android_vendor_samsung" remote="github" revision="jellybean"/-->
