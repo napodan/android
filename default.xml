@@ -109,6 +109,7 @@
   <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="napodan" revision="jellybean" />
   <!--project path="device/htc/ruby" name="android_device_htc_ruby" remote="github" revision="jellybean"/-->
   <!--project path="device/htc/shooter" name="android_device_htc_shooter" remote="github" revision="jellybean"/-->
+  <!--project path="device/htc/shootervm" name="android_device_htc_shootervm" remote="github" revision="jellybean"/-->
   <!--project path="device/htc/speedy" name="android_device_htc_speedy" remote="github" revision="jellybean"/-->
   <!--project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="jellybean" /-->
   <project path="external/bash" name="android_external_bash" remote="github" revision="jellybean" />
@@ -118,7 +119,7 @@
   <project path="external/nano" name="android_external_nano" remote="github" revision="jellybean" />
   <project path="external/rsync" name="android_external_rsync" remote="github" revision="jellybean" />
   <project path="external/su" name="android_external_su" remote="github" revision="jellybean" />
-  <project path="external/vim" name="android_external_vim" remote="github" revision="jellybean" />
+  <!--project path="external/vim" name="android_external_vim" remote="github" revision="jellybean" /-->
   <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="github" revision="jellybean"/>
   <project path="hardware/atheros" name="android_hardware_atheros" remote="github" revision="jellybean" />
   <project path="hardware/gpsshim" name="android_hardware_gpsshim" remote="github" revision="jellybean" />
@@ -319,7 +320,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <!--project path="packages/apps/Provision" name="platform/packages/apps/Provision" /-->
   <!--project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" /-->
-  <!--project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" /-->
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="master" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
