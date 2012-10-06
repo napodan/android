@@ -7,6 +7,10 @@
   <remote  name="github"
            fetch="git://github.com/Evervolv/"
            review="review.evervolv.com"/>
+  <remote name="napodan"
+           fetch="git://github.com/napodan/" />
+  <remote name="cm"
+           fetch="git://github.com/CyanogenMod" />
   <default revision="refs/tags/android-4.1.1_r6"
            remote="aosp"
            sync-j="4" />
@@ -362,4 +366,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="cm" revision="jellybean" />
+  <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="jellybean" />
 </manifest>
