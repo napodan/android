@@ -11,13 +11,13 @@
            fetch="git://github.com/napodan/" />
   <remote  name="cm" 
            fetch="git://github.com/CyanogenMod" />
-  <default revision="refs/tags/android-4.1.1_r6"
+  <default revision="refs/tags/android-4.1.2_r1"
            remote="aosp"
            sync-j="4" />
 
 
   <!--Evervolv-->
-  <project path="build" name="android_build" remote="napodan" revision="jellybean">
+  <project path="build" name="android_build" remote="github" revision="jellybean">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 <!--  <project path="bootable/recovery" name="android_bootable_recovery" remote="github" revision="jellybean"/>-->
@@ -48,7 +48,7 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="github" revision="jellybean"/>
   <project path="external/zlib" name="android_external_zlib" remote="github" revision="jellybean"/>
   <project path="frameworks/av" name="android_frameworks_av" remote="github" revision="jellybean"/>
-  <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="jellybean"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="github" revision="jellybean"/>
   <project path="frameworks/native" name="android_frameworks_native" remote="github" revision="jellybean"/>
   <project path="frameworks/rs" name="android_frameworks_rs" remote="github" revision="jellybean"/>
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="github" revision="jellybean"/>
@@ -60,7 +60,7 @@
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="github" revision="jellybean"/>
   <project path="hardware/ril" name="android_hardware_ril" remote="github" revision="jellybean"/>
   <project path="kernel/htc/qsd8k" name="android_kernel_htc_qsd8k" remote="github" revision="jellybean"/>
-  <project path="libcore" name="android_libcore" remote="napodan" revision="jellybean"/>
+  <project path="libcore" name="android_libcore" remote="github" revision="jellybean"/>
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="github" revision="jellybean" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="github" revision="jellybean" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="github" revision="jellybean" />
@@ -69,7 +69,7 @@
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="github" revision="jellybean" />
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="github" revision="jellybean" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="github" revision="jellybean" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="napodan" revision="jellybean" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github" revision="jellybean" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="github" revision="jellybean" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="github" revision="jellybean" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="github" revision="jellybean" />
@@ -86,7 +86,7 @@
   <!--Evervolv Extra-->
   <project path="android" name="android" remote="napodan" revision="aosp" />
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="napodan" revision="aosp" />
-  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="napodan" revision="jellybean" />
+  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="github" revision="jellybean" />
   <project path="external/bash" name="android_external_bash" remote="github" revision="jellybean" />
   <project path="external/busybox" name="android_external_busybox" remote="github" revision="jellybean" />
   <project path="external/htop" name="android_external_htop" remote="github" revision="jellybean" />
@@ -125,7 +125,6 @@
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" />
   <project path="device/samsung/toro" name="device/samsung/toro" />
-  <project path="device/samsung/torospr" name="device/samsung/torospr" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -335,5 +334,5 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="vendor/cm" name="android_vendor_cm" remote="cm" revision="jellybean" />
-  <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="jellybean" />
+  <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="aosp" />
 </manifest>
