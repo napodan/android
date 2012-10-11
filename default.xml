@@ -99,7 +99,7 @@
   <project path="hardware/gpsshim" name="android_hardware_gpsshim" remote="github" revision="jellybean" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="github" revision="jellybean" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="jellybean" />
-  <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="jellybean" />
+  <project path="vendor/ev" name="android_vendor_ev" remote="napodan" revision="aosp" />
   <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="jellybean" />
 
 
