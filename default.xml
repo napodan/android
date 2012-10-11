@@ -367,5 +367,5 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="vendor/cm" name="android_vendor_cm" remote="cm" revision="jellybean" />
-  <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="jellybean" />
+  <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="evervolv" />
 </manifest>
