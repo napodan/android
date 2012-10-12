@@ -69,7 +69,7 @@
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="github" revision="jellybean" />
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="github" revision="jellybean" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="github" revision="jellybean" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github" revision="jellybean" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="napodan" revision="aosp" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="github" revision="jellybean" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="github" revision="jellybean" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="github" revision="jellybean" />
