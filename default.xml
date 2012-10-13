@@ -86,7 +86,7 @@
   <!--Evervolv Extra-->
   <project path="android" name="android" remote="napodan" revision="njb" />
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="napodan" revision="njb" />
-  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="github" revision="jellybean" />
+  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="napodan" revision="njb" />
   <project path="external/bash" name="android_external_bash" remote="github" revision="jellybean" />
   <project path="external/busybox" name="android_external_busybox" remote="github" revision="jellybean" />
   <project path="external/htop" name="android_external_htop" remote="github" revision="jellybean" />
