@@ -45,6 +45,8 @@
 
   <!--napodan-->
   <project path="android" name="android" remote="napodan" revision="aosp_4.2" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="cm" revision="jellybean" />
+  <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="aosp" />
   <!--Evervolv Extra-->
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="github" revision="jellybean" />
   <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="github" revision="jellybean" />
