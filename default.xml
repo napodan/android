@@ -18,7 +18,7 @@
 
   <!--Evervolv-->
   <!--project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="github" revision="jellybean"/-->
-  <!--project path="hardware/libhardware" name="android_hardware_libhardware" remote="github" revision="jellybean"/-->
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="napodan" revision="aosp_4.2"/>
   <!--project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="github" revision="jellybean"/-->
 <!-- garder le projet github pour la ril : modif HTC uniquement -->
   <!--project path="hardware/ril" name="android_hardware_ril" remote="github" revision="jellybean"/-->
@@ -46,10 +46,10 @@
   <!--napodan-->
   <project path="android" name="android" remote="napodan" revision="aosp_4.2" />
   <project path="vendor/cm" name="android_vendor_cm" remote="cm" revision="jellybean" />
-  <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="aosp" />
+  <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="aosp_4.2" />
   <!--Evervolv Extra-->
-  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="github" revision="jellybean" />
-  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="github" revision="jellybean" />
+  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="napodan" revision="aosp_4.2" />
+  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="napodan" revision="aosp_4.2" />
   <!--project path="external/bash" name="android_external_bash" remote="github" revision="jellybean" /-->
   <project path="external/busybox" name="android_external_busybox" remote="github" revision="jellybean" />
   <!--project path="external/compat-wireless-3.5-rc3-1-sn" name="android_external_compat-wireless-3.5-rc3-1-sn" remote="github" revision="jellybean" /-->
@@ -62,7 +62,7 @@
   <!--project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="github" revision="jellybean"/-->
   <!--project path="hardware/atheros" name="android_hardware_atheros" remote="github" revision="jellybean" /-->
   <!--project path="hardware/gpsshim" name="android_hardware_gpsshim" remote="github" revision="jellybean" /-->
-  <!--project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="jellybean"/-->
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="napodan" revision="aosp_4.2"/>
   <!--project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="github" revision="jellybean"/-->
   <!--project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="github" revision="jellybean" /-->
   <!--project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="jellybean" /-->
@@ -290,9 +290,9 @@
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
+  <!--project path="hardware/libhardware" name="platform/hardware/libhardware" /-->
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
+  <!--project path="hardware/msm7k" name="platform/hardware/msm7k" /-->
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
