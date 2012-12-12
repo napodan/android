@@ -11,20 +11,24 @@
            fetch="git://github.com/napodan/" />
   <remote name="cm"
            fetch="git://github.com/CyanogenMod" />
-  <default revision="refs/tags/android-4.2_r1"
+  <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
 
 
   <!--Evervolv AOSP Projects-->
-  <project path="build" name="android_build" remote="napodan" revision="evervolv">
+  <project path="build" name="android_build" remote="github" revision="jellybean">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 <!--  <project path="bootable/recovery" name="android_bootable_recovery" remote="github" revision="jellybean"/>-->
   <project path="bionic" name="android_bionic" remote="github" revision="jellybean"/>
   <project path="dalvik" name="android_dalvik" remote="github" revision="jellybean"/>
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="github" revision="jellybean"/>
+  <project path="device/common" name="android_device_common" remote="github" revision="jellybean"/>
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="github" revision="jellybean"/>
+  <project path="device/lge/mako" name="android_device_lge_mako" remote="github" revision="jellybean"/>
+  <project path="device/lge/mako-kernel" name="android_device_lge_mako-kernel" remote="github" revision="jellybean"/>
+  <project path="device/samsung/manta" name="android_device_samsung_manta" remote="github" revision="jellybean"/>
   <project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="jellybean"/>
   <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="jellybean"/>
   <project path="external/aac" name="android_external_aac" remote="github" revision="jellybean"/>
@@ -40,25 +44,42 @@
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="github" revision="jellybean"/>
   <project path="external/yaffs2" name="android_external_yaffs2" remote="github" revision="jellybean"/>
   <project path="frameworks/av" name="android_frameworks_av" remote="github" revision="jellybean"/>
-  <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="evervolv"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="github" revision="jellybean"/>
   <project path="frameworks/native" name="android_frameworks_native" remote="github" revision="jellybean"/>
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="github" revision="jellybean"/>
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="github" revision="jellybean"/>
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="github" revision="jellybean"/>
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="github" revision="jellybean"/>
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="github" revision="jellybean"/>
   <project path="hardware/ril" name="android_hardware_ril" remote="github" revision="jellybean"/>
-  <project path="libcore" name="android_libcore" remote="napodan" revision="evervolv"/>
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="github" revision="jellybean"/>
+  <project path="libcore" name="android_libcore" remote="github" revision="jellybean"/>
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="github" revision="jellybean" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="github" revision="jellybean" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="napodan" revision="evervolv" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="github" revision="jellybean" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="github" revision="jellybean"/>
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="github" revision="jellybean" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="github" revision="jellybean" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="github" revision="jellybean" />
-  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="napodan" revision="evervolv" />
+  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="github" revision="jellybean" />
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="github" revision="jellybean" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="github" revision="jellybean" />
-  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="napodan" revision="evervolv" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="napodan" revision="evervolv" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="github" revision="jellybean" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github" revision="jellybean" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="github" revision="jellybean" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="napodan" revision="evervolv" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="github" revision="jellybean" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="github" revision="jellybean" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="github" revision="jellybean" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" remote="github" revision="jellybean" />
@@ -72,8 +93,9 @@
   <!--Evervolv Extra Projects-->
   <project path="android" name="android" remote="napodan" revision="evervolv" />
   <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="jellybean" />
-  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="napodan" revision="evervolv" />
+  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="github" revision="jellybean" />
   <project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="jellybean" />
+  <project path="device/htc/evita" name="android_device_htc_evita" remote="github" revision="jellybean" />
   <project path="device/htc/express" name="android_device_htc_express" remote="github" revision="jellybean" />
   <project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="jellybean" />
   <project path="device/htc/jewel" name="android_device_htc_jewel" remote="github" revision="jellybean" />
@@ -84,13 +106,14 @@
   <project path="device/htc/passion" name="android_device_htc_passion" remote="github" revision="jellybean" />
   <project path="device/htc/primoc" name="android_device_htc_primoc" remote="github" revision="jellybean" />
   <project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github" revision="jellybean" />
-  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="napodan" revision="evervolv" />
+  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="github" revision="jellybean" />
   <project path="device/htc/ruby" name="android_device_htc_ruby" remote="github" revision="jellybean"/>
   <project path="device/htc/shooter" name="android_device_htc_shooter" remote="github" revision="jellybean"/>
   <project path="device/htc/shootervm" name="android_device_htc_shootervm" remote="github" revision="jellybean"/>
   <project path="device/htc/speedy" name="android_device_htc_speedy" remote="github" revision="jellybean"/>
   <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="jellybean" />
   <project path="device/htc/vivow" name="android_device_htc_vivow" remote="github" revision="jellybean"/>
+  <project path="device/lge/geehrc" name="android_device_lge_geehrc" remote="github" revision="jellybean"/>
   <project path="external/bash" name="android_external_bash" remote="github" revision="jellybean" />
   <project path="external/busybox" name="android_external_busybox" remote="github" revision="jellybean" />
   <project path="external/compat-wireless-3.5-rc3-1-sn" name="android_external_compat-wireless-3.5-rc3-1-sn" remote="github" revision="jellybean" />
@@ -103,25 +126,20 @@
   <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="github" revision="jellybean"/>
   <project path="hardware/atheros" name="android_hardware_atheros" remote="github" revision="jellybean" />
   <project path="hardware/gpsshim" name="android_hardware_gpsshim" remote="github" revision="jellybean" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="github" revision="jellybean" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="jellybean" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="github" revision="jellybean"/>
   <project path="packages/apps/AndroidTerm" name="android_packages_apps_AndroidTerm" remote="github" revision="jellybean"/>
   <project path="packages/apps/CMWimaxSettings" name="android_packages_apps_CMWimaxSettings" remote="github" revision="jellybean" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="github" revision="jellybean"/>
   <project path="packages/apps/EVTips" name="android_packages_apps_EVTips" remote="github" revision="jellybean"/>
   <project path="packages/apps/EVToolbox" name="android_packages_apps_EVToolbox" remote="github" revision="jellybean"/>
   <project path="packages/apps/EVWidgets" name="android_packages_apps_EVWidgets" remote="github" revision="jellybean"/>
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="jellybean"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="github" revision="jellybean"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-linaro-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.7" remote="github" revision="jellybean"/>
   <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="jellybean"/>
   <project path="vendor/asus" name="android_vendor_asus" remote="github" revision="jellybean"/>
-  <project path="vendor/ev" name="android_vendor_ev" remote="napodan" revision="evervolv" />
+  <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="jellybean" />
   <project path="vendor/hp" name="android_vendor_hp" remote="github" revision="jellybean" />
   <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="jellybean" />
+  <project path="vendor/lge" name="android_vendor_lge" remote="github" revision="jellybean" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="github" revision="jellybean"/>
 
 <!-- Tmobile Themes -->
@@ -139,17 +157,15 @@
   <project path="cts" name="platform/cts" />
   <project path="development" name="platform/development"/>
 <!--  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />-->
-  <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
 <!--  <project path="device/generic/mips" name="device/generic/mips" />-->
-  <project path="device/generic/x86" name="device/generic/x86" />
+<!--  <project path="device/generic/x86" name="device/generic/x86" />-->
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" />
 <!--  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />-->
-<!--  <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />-->
 <!--  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />-->
 <!--  <project path="device/ti/panda" name="device/ti/panda" groups="device" />-->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -313,7 +329,6 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="platform/frameworks/rs" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -324,12 +339,10 @@
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
@@ -374,8 +387,6 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" />
-  <!--TODO upload gcc4.4 to github and remove-->
-  <project path="prebuilt" name="platform/prebuilt" revision="refs/tags/android-4.1.2_r1"/>
 <!--  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />-->
 <!--  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />-->
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
