@@ -92,7 +92,7 @@
   <!--Evervolv Extra Projects-->
   <project path="android" name="android" remote="napodan" revision="evervolv" />
   <project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="jellybean" />
-  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="github" revision="jellybean" />
+  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="napodan" revision="evervolv" />
   <project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="jellybean" />
   <project path="device/htc/evita" name="android_device_htc_evita" remote="github" revision="jellybean" />
   <project path="device/htc/express" name="android_device_htc_express" remote="github" revision="jellybean" />
@@ -140,7 +140,7 @@
   <project path="vendor/asus" name="android_vendor_asus" remote="github" revision="jellybean"/>
   <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="jellybean" />
   <project path="vendor/hp" name="android_vendor_hp" remote="github" revision="jellybean" />
-  <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="jellybean" />
+  <project path="vendor/htc" name="android_vendor_htc" remote="napodan" revision="evervolv" />
   <project path="vendor/lge" name="android_vendor_lge" remote="github" revision="jellybean" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="github" revision="jellybean"/>
 
