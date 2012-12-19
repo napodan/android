@@ -9,135 +9,190 @@
            review="review.evervolv.com"/>
   <remote  name="napodan"
            fetch="git://github.com/napodan/" />
-  <remote  name="cm" 
+  <remote  name="cm"
            fetch="git://github.com/CyanogenMod" />
-  <default revision="refs/tags/android-4.1.2_r1"
+  <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
 
 
-  <!--Evervolv-->
-  <project path="build" name="android_build" remote="napodan" revision="aosp">
+  <!--Evervolv AOSP Projects-->
+  <project path="build" name="android_build" remote="github" revision="jellybean">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 <!--  <project path="bootable/recovery" name="android_bootable_recovery" remote="github" revision="jellybean"/>-->
-  <project path="bionic" name="android_bionic" remote="github" revision="jellybean"/>
-  <project path="dalvik" name="android_dalvik" remote="github" revision="jellybean"/>
-  <project path="external/aac" name="android_external_aac" remote="github" revision="jellybean"/>
-  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="github" revision="jellybean"/>
+  <!--project path="bionic" name="android_bionic" remote="github" revision="jellybean"/-->
+  <!--project path="dalvik" name="android_dalvik" remote="github" revision="jellybean"/-->
+  <!--project path="device/asus/grouper" name="android_device_asus_grouper" remote="github" revision="jellybean"/-->
+  <project path="device/common" name="android_device_common" remote="github" revision="jellybean"/>
+  <!--project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="github" revision="jellybean"/-->
+  <!--project path="device/lge/mako" name="android_device_lge_mako" remote="github" revision="jellybean"/-->
+  <!--project path="device/lge/mako-kernel" name="android_device_lge_mako-kernel" remote="github" revision="jellybean"/-->
+  <!--project path="device/samsung/manta" name="android_device_samsung_manta" remote="github" revision="jellybean"/-->
+  <!--project path="device/samsung/toro" name="android_device_samsung_toro" remote="github" revision="jellybean"/-->
+  <!--project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="github" revision="jellybean"/-->
+  <!--project path="external/aac" name="android_external_aac" remote="github" revision="jellybean"/-->
   <project path="external/chromium" name="android_external_chromium" remote="github" revision="jellybean"/>
-  <project path="external/compat-wireless-3.5-rc3-1-sn" name="android_external_compat-wireless-3.5-rc3-1-sn" remote="github" revision="jellybean" />
-  <project path="external/dropbear" name="android_external_dropbear" remote="github" revision="jellybean"/>
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="github" revision="jellybean"/>
-  <project path="external/elfutils" name="android_external_elfutils" remote="github" revision="jellybean"/>
-  <project path="external/freetype" name="android_external_freetype" remote="github" revision="jellybean"/>
+  <!--project path="external/elfutils" name="android_external_elfutils" remote="github" revision="jellybean"/>
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" remote="github" revision="jellybean"/>
-  <project path="external/guava" name="android_external_guava" remote="github" revision="jellybean"/>
-  <project path="external/icu4c" name="android_external_icu4c" remote="github" revision="jellybean"/>
   <project path="external/openssh" name="android_external_openssh" remote="github" revision="jellybean"/>
-  <project path="external/openssl" name="android_external_openssl" remote="github" revision="jellybean"/>
-  <project path="external/oprofile" name="android_external_oprofile" remote="github" revision="jellybean"/>
-  <project path="external/skia" name="android_external_skia" remote="github" revision="jellybean"/>
   <project path="external/srec" name="android_external_srec" remote="github" revision="jellybean"/>
   <project path="external/stlport" name="android_external_stlport" remote="github" revision="jellybean"/>
-  <project path="external/v8" name="android_external_v8" remote="github" revision="jellybean"/>
+  <project path="external/v8" name="android_external_v8" remote="github" revision="jellybean"/-->
   <project path="external/webkit" name="android_external_webkit" remote="github" revision="jellybean"/>
-  <project path="external/webrtc" name="android_external_webrtc" remote="github" revision="jellybean"/>
-  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="github" revision="jellybean"/>
+  <!--project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="github" revision="jellybean"/>
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="github" revision="jellybean"/>
-  <project path="external/yaffs2" name="android_external_yaffs2" remote="github" revision="jellybean"/>
-  <project path="external/zlib" name="android_external_zlib" remote="github" revision="jellybean"/>
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="github" revision="jellybean"/-->
   <project path="frameworks/av" name="android_frameworks_av" remote="github" revision="jellybean"/>
-  <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="aosp"/>
+  <!--project path="frameworks/base" name="android_frameworks_base" remote="github" revision="jellybean"/-->
   <project path="frameworks/native" name="android_frameworks_native" remote="github" revision="jellybean"/>
-  <project path="frameworks/rs" name="android_frameworks_rs" remote="github" revision="jellybean"/>
+  <!--project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="github" revision="jellybean"/-->
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="github" revision="jellybean"/>
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="github" revision="jellybean"/>
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="github" revision="jellybean"/>
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="jellybean" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="github" revision="jellybean"/>
   <project path="hardware/ril" name="android_hardware_ril" remote="github" revision="jellybean"/>
-  <project path="kernel/htc/qsd8k" name="android_kernel_htc_qsd8k" remote="github" revision="jellybean"/>
-  <project path="libcore" name="android_libcore" remote="napodan" revision="aosp"/>
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="github" revision="jellybean"/>
+  <project path="libcore" name="android_libcore" remote="github" revision="jellybean"/>
+  <!--project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="github" revision="jellybean" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="github" revision="jellybean" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="napodan" revision="aosp" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="github" revision="jellybean" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="github" revision="jellybean"/>
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="github" revision="jellybean" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="github" revision="jellybean" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="github" revision="jellybean" />
-  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="napodan" revision="aosp" />
+  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="github" revision="jellybean" />
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="github" revision="jellybean" />
-  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="napodan" revision="aosp" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="napodan" revision="aosp" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="github" revision="jellybean" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="github" revision="jellybean" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="github" revision="jellybean" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="github" revision="jellybean" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="napodan" revision="aosp" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="github" revision="jellybean" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="github" revision="jellybean" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="github" revision="jellybean" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="github" revision="jellybean" /-->
   <project path="prebuilts/misc" name="android_prebuilts_misc" remote="github" revision="jellybean" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="github" revision="jellybean" />
   <project path="system/core" name="android_system_core" remote="github" revision="jellybean" />
   <project path="system/extras" name="android_system_extras" remote="github" revision="jellybean" />
-  <project path="system/media" name="android_system_media" remote="github" revision="jellybean" />
-  <project path="system/netd" name="android_system_netd" remote="github" revision="jellybean" />
   <project path="system/security" name="android_system_security" remote="github" revision="jellybean" />
   <project path="system/vold" name="android_system_vold" remote="github" revision="jellybean" />
 
 
-  <!--Evervolv Extra-->
+  <!--Evervolv Extra Projects-->
   <project path="android" name="android" remote="napodan" revision="aosp" />
+  <!--project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="jellybean" /-->
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="napodan" revision="aosp" />
-  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="napodan" revision="aosp" />
+  <!--project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="jellybean" /-->
+  <!--project path="device/htc/evita" name="android_device_htc_evita" remote="github" revision="jellybean" /-->
+  <!--project path="device/htc/express" name="android_device_htc_express" remote="github" revision="jellybean" /-->
+  <!--project path="device/htc/inc" name="android_device_htc_inc" remote="github" revision="jellybean" /-->
+  <!--project path="device/htc/jewel" name="android_device_htc_jewel" remote="github" revision="jellybean" /-->
+  <!--project path="device/htc/kingdom" name="android_device_htc_kingdom" remote="github" revision="jellybean" /-->
+  <!--project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="github" revision="jellybean"/-->
+  <!--project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="github" revision="jellybean"/-->
+  <!--project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="github" revision="jellybean"/-->
+  <!--project path="device/htc/passion" name="android_device_htc_passion" remote="github" revision="jellybean" /-->
+  <!--project path="device/htc/primoc" name="android_device_htc_primoc" remote="github" revision="jellybean" /-->
+  <!--project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github" revision="jellybean" /-->
+  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="github" revision="jellybean" />
+  <!--project path="device/htc/ruby" name="android_device_htc_ruby" remote="github" revision="jellybean"/>
+  <project path="device/htc/shooter" name="android_device_htc_shooter" remote="github" revision="jellybean"/>
+  <project path="device/htc/shootervm" name="android_device_htc_shootervm" remote="github" revision="jellybean"/>
+  <project path="device/htc/speedy" name="android_device_htc_speedy" remote="github" revision="jellybean"/>
+  <project path="device/htc/supersonic" name="android_device_htc_supersonic" remote="github" revision="jellybean" />
+  <project path="device/htc/vivow" name="android_device_htc_vivow" remote="github" revision="jellybean"/>
+  <project path="device/lge/geehrc" name="android_device_lge_geehrc" remote="github" revision="jellybean"/-->
   <project path="external/bash" name="android_external_bash" remote="github" revision="jellybean" />
   <project path="external/busybox" name="android_external_busybox" remote="github" revision="jellybean" />
-  <project path="external/htop" name="android_external_htop" remote="github" revision="jellybean" />
+  <project path="external/compat-wireless-3.5-rc3-1-sn" name="android_external_compat-wireless-3.5-rc3-1-sn" remote="github" revision="jellybean" />
+  <!--project path="external/htop" name="android_external_htop" remote="github" revision="jellybean" /-->
   <project path="external/libncurses" name="android_external_libncurses" remote="github" revision="jellybean" />
   <project path="external/nano" name="android_external_nano" remote="github" revision="jellybean" />
-  <project path="external/rsync" name="android_external_rsync" remote="github" revision="jellybean" />
+  <!--project path="external/rsync" name="android_external_rsync" remote="github" revision="jellybean" /-->
   <project path="external/su" name="android_external_su" remote="github" revision="jellybean" />
+  <!--project path="external/vim" name="android_external_vim" remote="github" revision="jellybean" /-->
   <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="github" revision="jellybean"/>
   <project path="hardware/atheros" name="android_hardware_atheros" remote="github" revision="jellybean" />
   <project path="hardware/gpsshim" name="android_hardware_gpsshim" remote="github" revision="jellybean" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="github" revision="jellybean" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="github" revision="jellybean" />
-  <project path="vendor/ev" name="android_vendor_ev" remote="napodan" revision="aosp" />
-  <project path="vendor/htc" name="android_vendor_htc" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="github" revision="jellybean"/>
+  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote=" napodan" revision="aosp"/>
+  <!--project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="github" revision="jellybean"/-->
+  <project path="hardware/qcom/gps-legacy" name="android_hardware_qcom_gps-legacy" remote="github" revision="jellybean"/>
+  <project path="kernel/htc/qsd8k" name="android_kernel_htc_qsd8k" remote="github" revision="jellybean"/>
+  <project path="packages/apps/AndroidTerm" name="android_packages_apps_AndroidTerm" remote="github" revision="jellybean"/>
+  <!--project path="packages/apps/CMWimaxSettings" name="android_packages_apps_CMWimaxSettings" remote="github" revision="jellybean" />
+  <project path="packages/apps/EVTips" name="android_packages_apps_EVTips" remote="github" revision="jellybean"/>
+  <project path="packages/apps/EVToolbox" name="android_packages_apps_EVToolbox" remote="github" revision="jellybean"/>
+  <project path="packages/apps/EVWidgets" name="android_packages_apps_EVWidgets" remote="github" revision="jellybean"/>
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="github" revision="jellybean"/-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="github" revision="jellybean"/>
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-linaro-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.7" remote="github" revision="jellybean"/>
+  <project path="system/wlan/ti" name="android_system_wlan_ti" remote="github" revision="jellybean"/>
+  <!--project path="vendor/asus" name="android_vendor_asus" remote="github" revision="jellybean"/-->
+  <project path="vendor/ev" name="android_vendor_ev" remote="github" revision="jellybean" />
+  <!--project path="vendor/hp" name="android_vendor_hp" remote="github" revision="jellybean" /-->
+  <project path="vendor/htc" name="android_vendor_htc" remote="napodan" revision="evervolv" />
+  <!--project path="vendor/lge" name="android_vendor_lge" remote="github" revision="jellybean" /-->
+  <!--project path="vendor/samsung" name="android_vendor_samsung" remote="github" revision="jellybean"/-->
 
+<!-- added vendor -->
+  <project path="vendor/cm" name="android_vendor_cm" remote="cm" revision="jellybean" />
+  <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="aosp" />
+
+<!-- Tmobile Themes -->
+  <!--project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="github" revision="jellybean"/>
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jellybean" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="themes-platform-vendor-tmobile-libs-com.tmobile.themes" remote="github" revision="jellybean"/>
+  <project path="vendor/tmobile/providers/ThemeManager" name="themes-platform-vendor-tmobile-providers-ThemeManager" remote="github" revision="jellybean"/>
+  <project path="vendor/tmobile/themes/Androidian-6-100" name="theme-Androidian-6-100" remote="github" revision="jellybean"/-->
 
   <!--Aosp-->
   <project path="abi/cpp" name="platform/abi/cpp" />
+  <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="device/asus/grouper" />
-  <project path="device/common" name="device/common" />
+  <project path="dalvik" name="platform/dalvik" />
+  <project path="development" name="platform/development"/>
+<!--  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />-->
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-  <project path="device/moto/common" name="device/moto/common" />
-  <project path="device/moto/stingray" name="device/moto/stingray" />
-  <project path="device/moto/wingray" name="device/moto/wingray" />
+  <project path="device/generic/common" name="device/generic/common" />
+<!--  <project path="device/generic/mips" name="device/generic/mips" />-->
+<!--  <project path="device/generic/x86" name="device/generic/x86" />-->
+  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
+  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" />
-  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" />
-  <project path="device/samsung/toro" name="device/samsung/toro" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" />
-  <project path="device/ti/panda" name="device/ti/panda" />
+<!--  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />-->
+<!--  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />-->
+<!--  <project path="device/ti/panda" name="device/ti/panda" groups="device" />-->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
+  <project path="external/aac" name="platform/external/aac" />
+  <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" />
+  <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
   <project path="external/apache-http" name="platform/external/apache-http" />
+  <project path="external/apache-qp" name="platform/external/apache-qp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
+  <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
@@ -151,16 +206,22 @@
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" />
+  <project path="external/dropbear" name="platform/external/dropbear" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
+  <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
+  <project path="external/fat32lib" name="platform/external/fat32lib" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" />
+  <project path="external/freetype" name="platform/external/freetype" />
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -168,12 +229,15 @@
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="platform/external/gtest" />
+  <project path="external/guava" name="platform/external/guava" />
   <project path="external/hamcrest" name="platform/external/hamcrest" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" />
   <project path="external/hyphenation" name="platform/external/hyphenation" />
+  <project path="external/icu4c" name="platform/external/icu4c" />
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
+  <project path="external/jack" name="platform/external/jack" />
   <project path="external/javasqlite" name="platform/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
@@ -185,19 +249,24 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
+  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
+  <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" />
   <project path="external/libsepol" name="platform/external/libsepol" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
+  <project path="external/libvorbis" name="platform/external/libvorbis" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
@@ -211,6 +280,7 @@
   <project path="external/mesa3d" name="platform/external/mesa3d" />
   <project path="external/mksh" name="platform/external/mksh" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
+  <project path="external/mp4parser" name="platform/external/mp4parser" />
   <project path="external/mtpd" name="platform/external/mtpd" />
   <project path="external/naver-fonts" name="platform/external/naver-fonts" />
   <project path="external/netcat" name="platform/external/netcat" />
@@ -218,8 +288,12 @@
   <project path="external/neven" name="platform/external/neven" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
+  <project path="external/okhttp" name="platform/external/okhttp" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
+  <project path="external/openssh" name="platform/external/openssh" />
+  <project path="external/openssl" name="platform/external/openssl" />
+  <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -232,11 +306,14 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
+  <project path="external/skia" name="platform/external/skia" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
+  <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
@@ -244,70 +321,101 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
+  <project path="external/tinyxml2" name="platform/external/tinyxml2" />
   <project path="external/tremolo" name="platform/external/tremolo" />
+  <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
   <project path="external/webp" name="platform/external/webp" />
+  <project path="external/webrtc" name="platform/external/webrtc" />
+  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
+  <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
+  <project path="external/yaffs2" name="platform/external/yaffs2" />
+  <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
+  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
+  <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
+  <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
+  <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
+  <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="master" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+<!--  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />-->
+<!--  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />-->
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
+  <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
+  <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
+  <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -317,22 +425,31 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" />
-  <project path="prebuilt" name="platform/prebuilt" />
+<!--  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />-->
+<!--  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />-->
+  <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
+  <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" />
-<!--  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" />-->
-<!--  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" />-->
-  <project path="prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" name="platform/prebuilts/gcc/linux-x86/x86/i686-android-linux-4.4.3" />
-  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
+  <!--project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
+  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" /-->
+<!--  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" />-->
+<!--  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" />-->
+<!--  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" />-->
+<!--  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" />
+<!--  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips" />-->
+<!--  <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" />-->
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="vendor/cm" name="android_vendor_cm" remote="cm" revision="jellybean" />
-  <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="aosp" />
+  <project path="system/media" name="platform/system/media" />
+  <project path="system/netd" name="platform/system/netd" />
+  <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
+  <project path="tools/motodev" name="platform/tools/motodev" />
 </manifest>
