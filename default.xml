@@ -105,7 +105,7 @@
   <!--project path="device/htc/passion" name="android_device_htc_passion" remote="github" revision="jellybean" /-->
   <!--project path="device/htc/primoc" name="android_device_htc_primoc" remote="github" revision="jellybean" /-->
   <!--project path="device/htc/pyramid" name="android_device_htc_pyramid" remote="github" revision="jellybean" /-->
-  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="github" revision="jellybean" />
+  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="napodan" revision="aosp" />
   <!--project path="device/htc/ruby" name="android_device_htc_ruby" remote="github" revision="jellybean"/>
   <project path="device/htc/shooter" name="android_device_htc_shooter" remote="github" revision="jellybean"/>
   <project path="device/htc/shootervm" name="android_device_htc_shootervm" remote="github" revision="jellybean"/>
@@ -126,7 +126,7 @@
   <project path="hardware/atheros" name="android_hardware_atheros" remote="github" revision="jellybean" />
   <project path="hardware/gpsshim" name="android_hardware_gpsshim" remote="github" revision="jellybean" />
   <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="github" revision="jellybean"/>
-  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote=" napodan" revision="aosp"/>
+  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="napodan" revision="aosp"/>
   <!--project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="github" revision="jellybean"/-->
   <project path="hardware/qcom/gps-legacy" name="android_hardware_qcom_gps-legacy" remote="github" revision="jellybean"/>
   <project path="kernel/htc/qsd8k" name="android_kernel_htc_qsd8k" remote="github" revision="jellybean"/>
