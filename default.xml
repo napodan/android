@@ -91,7 +91,7 @@
 
 
   <!--Evervolv Extra Projects-->
-  <project path="android" name="android" remote="napodan" revision="aosp" />
+  <project path="android" name="android" remote="napodan" revision="njb4.2" />
   <!--project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="jellybean" /-->
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="napodan" revision="aosp" />
   <!--project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="jellybean" /-->
@@ -193,7 +193,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="refs/tags/android-4.2.1_r1_" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
