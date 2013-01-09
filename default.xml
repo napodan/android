@@ -45,7 +45,7 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="github" revision="jellybean"/-->
   <project path="frameworks/av" name="android_frameworks_av" remote="github" revision="jellybean"/>
   <!--project path="frameworks/base" name="android_frameworks_base" remote="github" revision="jellybean"/-->
-  <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="aosp"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="njb4.2"/>
   <project path="frameworks/native" name="android_frameworks_native" remote="github" revision="jellybean"/>
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="napodan" revision="aosp"/>
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="github" revision="jellybean"/>
@@ -93,7 +93,7 @@
   <!--Evervolv Extra Projects-->
   <project path="android" name="android" remote="napodan" revision="njb4.2" />
   <!--project path="device/hp/tenderloin" name="android_device_hp_tenderloin" remote="github" revision="jellybean" /-->
-  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="napodan" revision="aosp" />
+  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="napodan" revision="njb4.2" />
   <!--project path="device/htc/desirec" name="android_device_htc_desirec" remote="github" revision="jellybean" /-->
   <!--project path="device/htc/evita" name="android_device_htc_evita" remote="github" revision="jellybean" /-->
   <!--project path="device/htc/express" name="android_device_htc_express" remote="github" revision="jellybean" /-->
@@ -149,7 +149,7 @@
 
 <!-- added vendor -->
   <project path="vendor/cm" name="android_vendor_cm" remote="cm" revision="jellybean" />
-  <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="aosp" />
+  <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="njb4.2" />
 
 <!-- Tmobile Themes -->
   <!--project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="github" revision="jellybean"/>
