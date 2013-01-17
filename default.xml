@@ -157,6 +157,9 @@
   <project path="vendor/cm" name="android_vendor_cm" remote="cm" revision="jellybean" />
   <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="njb4.2" />
 
+<!-- added extras apps -->
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="napodan" revision="njb4.2" />
+
 <!-- Tmobile Themes -->
   <!--project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="github" revision="jellybean"/>
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jellybean" />
