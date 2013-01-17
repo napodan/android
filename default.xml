@@ -39,7 +39,7 @@
   <project path="external/srec" name="android_external_srec" remote="github" revision="jellybean"/>
   <project path="external/stlport" name="android_external_stlport" remote="github" revision="jellybean"/>
   <project path="external/v8" name="android_external_v8" remote="github" revision="jellybean"/-->
-  <project path="external/webkit" name="android_external_webkit" remote="github" revision="jellybean"/>
+  <!--project path="external/webkit" name="android_external_webkit" remote="github" revision="jellybean"/-->
   <!--project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="github" revision="jellybean"/>
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="github" revision="jellybean"/>
   <project path="external/yaffs2" name="android_external_yaffs2" remote="github" revision="jellybean"/-->
@@ -340,6 +340,8 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
+  <!--project path="external/webkit" name="platform/external/webkit" /-->
+  <project path="external/webkit" name="android_external_webkit" remote="napodan" revision="aosp" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
