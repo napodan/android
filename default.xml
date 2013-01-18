@@ -21,7 +21,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project-->
 <!--  <project path="bootable/recovery" name="android_bootable_recovery" remote="github" revision="jellybean"/>-->
-  <project path="bionic" name="android_bionic" remote="github" revision="jellybean"/>
+  <!--project path="bionic" name="android_bionic" remote="github" revision="jellybean"/-->
   <!--project path="dalvik" name="android_dalvik" remote="github" revision="jellybean"/-->
   <!--project path="device/asus/grouper" name="android_device_asus_grouper" remote="github" revision="jellybean"/-->
   <project path="device/common" name="android_device_common" remote="github" revision="jellybean"/>
@@ -157,6 +157,9 @@
   <project path="vendor/cm" name="android_vendor_cm" remote="cm" revision="jellybean" />
   <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="aosp" />
 
+<!-- added extras apps -->
+  <project path="packages/apps/Superuser" name="Superuser" remote="napodan" revision="aosp"/>
+
 <!-- Tmobile Themes -->
   <!--project path="vendor/tmobile/products/themes" name="themes-platform-vendor-tmobile-products-themes" remote="github" revision="jellybean"/>
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jellybean" />
@@ -171,6 +174,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <!--project path="bionic" name="platform/bionic" /-->
+  <project path="bionic" name="android_bionic" remote="napodan" revision="aosp" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
