@@ -51,7 +51,8 @@
   <!--project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="napodan" revision="aosp"/-->
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="github" revision="jellybean"/>
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="github" revision="jellybean"/>
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="github" revision="jellybean"/>
+  <!--project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="github" revision="jellybean"/-->
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="napodan" revision="aosp"/>
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="github" revision="jellybean"/>
@@ -130,7 +131,8 @@
   <project path="external/wpa_supplicant" name="android_external_wpa_supplicant" remote="github" revision="jellybean"/>
   <project path="hardware/atheros" name="android_hardware_atheros" remote="github" revision="jellybean" />
   <project path="hardware/gpsshim" name="android_hardware_gpsshim" remote="github" revision="jellybean" />
-  <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="github" revision="jellybean"/>
+  <!--project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="github" revision="jellybean"/-->
+  <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="napodan" revision="aosp"/>
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="github" revision="jellybean"/>
   <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="napodan" revision="aosp"/>
   <!--project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="github" revision="jellybean"/-->
