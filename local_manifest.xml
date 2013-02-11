@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
+  <remote  name="napodan"
+           fetch="git://github.com/napodan/" />
+  <remote  name="Evervolv"
+           fetch="git://github.com/Evervolv/"
+           review="review.evervolv.com"/>
+  <remote  name="KEvervolv"
+           fetch="git://github.com/Evervolv/"
+           review="review.evervolv.com"/>
+  <remote  name="CyanogenMod"
+           fetch="git://github.com/CyanogenMod" />  
+
+</manifest>
