@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
-           review="https://android-review.googlesource.com/" />
-  <remote  name="github"
-           fetch="git://github.com/Evervolv/"
-           review="review.evervolv.com"/>
   <default revision="refs/tags/android-4.2.2_r1.1"
            remote="aosp"
            sync-j="4" />
@@ -380,6 +374,4 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
-  <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
-  <project path="tools/motodev" name="platform/tools/motodev" />
 </manifest>
