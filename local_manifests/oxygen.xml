@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/build" />
+  <project path="build" name="android_build" remote="oxygen" revision="gingerbread">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="android_bionic" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="device/htc/passion" />
+  <project path="device/htc/passion" name="android_device_htc_passion" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="device/samsung/crespo" />
+  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/external/skia" />
+  <project path="external/skia" name="android_external_skia" remote="oxygen" revision="gingerbread" />
+  
+  <remove-project name="platform/external/sqlite" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/external/wpa_supplicant_6" />
+  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/hardware/msm7k" />
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="oxygen" revision="gingerbread" />
+  
+  <remove-project name="platform/hardware/ril" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_bluetooth" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/packages/apps/Browser" />
+  <project path="packages/apps/Browser" name="android_packages_apps_browser" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/packages/apps/Gallery3D" />
+  <project path="packages/apps/Gallery3D" name="android_packages_apps_gallery3d" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/packages/apps/Launcher2" />
+  <project path="packages/apps/Launcher2" name="android_packages_apps_launcher2" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="android_packages_apps_mms" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="android_packages_apps_phone" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="android_packages_apps_settings" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_downloadprovider" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_mediaprovider" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/system/bluetooth" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="oxygen" revision="gingerbread" />
+
+  <remove-project name="platform/system/core" />
+  <project path="system/core" name="android_system_core" remote="oxygen" revision="gingerbread" />
+
+</manifest>
+

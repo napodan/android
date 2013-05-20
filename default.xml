@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote  name="aosp"
-           fetch=".." />
   <default revision="refs/tags/android-2.3.7_r1"
            remote="aosp"
            sync-j="4" />
@@ -15,8 +12,8 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
-  <project path="development" name="platform/development" />
+  <project path="dalvik" name="platform/dalvik" revision="d0d351b2ef726ff1b76a3efb4aad91e4d1436f6a" />
+  <project path="development" name="platform/development" revision="894a63dd6eb8a1c675c21a8a10eff8c0118890c8" />
   <project path="device/common" name="device/common" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
@@ -55,7 +52,7 @@
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
-  <project path="external/grub" name="platform/external/grub" />
+  <project path="external/grub" name="platform/external/grub" revision="c50afe926cb430059604727b3d6336c580f425ad" />
   <project path="external/gtest" name="platform/external/gtest" />
   <project path="external/guava" name="platform/external/guava" />
   <project path="external/icu4c" name="platform/external/icu4c" />
@@ -67,7 +64,7 @@
   <project path="external/jpeg" name="platform/external/jpeg" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="dd8b731fbe68c7e9f8bdc6fcc49397bf0ba93d32" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
@@ -95,13 +92,13 @@
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/srec" name="platform/external/srec" />
-  <project path="external/stlport" name="platform/external/stlport" />
+  <project path="external/stlport" name="platform/external/stlport" revision="aaea6ca1dc413af304d93da866cad9e6f4e6c299" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/tinyxml" name="platform/external/tinyxml" />
-  <project path="external/tremolo" name="platform/external/tremolo" />
+  <project path="external/tremolo" name="platform/external/tremolo" revision="69a9d313a91bc0cc1ac4aa98d0abdebdc5f9f9a0" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
@@ -110,10 +107,10 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="frameworks/base" name="platform/frameworks/base" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" revision="a3684d4db1a0505efc26d6c9ccedd76a71550e5b" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="33fddf0ca9801080472116654264be63a21b6e80" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
@@ -170,12 +167,12 @@
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
-  <project path="prebuilt" name="platform/prebuilt" />
+  <project path="prebuilt" name="platform/prebuilt" revision="686f8657e88ebc8259863f8212c3a02c060c52ce" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="platform/system/core" />
   <project path="system/extras" name="platform/system/extras" />
-  <project path="system/media" name="platform/system/media" />
+  <project path="system/media" name="platform/system/media" revision="0dc351beb3357f71ef4a04c088eb69c38dd98d8d" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti" />

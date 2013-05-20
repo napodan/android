@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="device/htc/common" />
+  <project path="device/htc/common" name="android_device_htc_common" remote="CyanogenMod" revision="refs/tags/cm-7.1.0" />
+
+  <project path="external/busybox" name="android_external_busybox" remote="CyanogenMod" revision="29d8ebe3459c19759de19df0d6cadcbfc419946a" />
+
+  <remove-project name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="CyanogenMod" revision="refs/tags/cm-7.1.0" />
+
+  <remove-project name="platform/external/openssl" />
+  <project path="external/openssl" name="android_external_openssl" remote="CyanogenMod" revision="refs/tags/cm-7.1.0" />
+
+  <remove-project name="platform/external/yaffs2" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="CyanogenMod" revision="refs/tags/cm-7.1.0" />
+
+  <remove-project name="platform/packages/apps/Camera" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="CyanogenMod" revision="3c82fd65ce263697e6088e95eb02d5bc25d34577" />
+
+  <project path="packages/apps/CMScreenshot" name="android_packages_apps_CMScreenshot" remote="CyanogenMod" revision="31c77c5eb253177e137d65cc8e7ed0c9d6c69442" />
+
+  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="CyanogenMod" revision="894ab4d6e8dccae9da518986bdf08a343d728855" />
+
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="CyanogenMod" revision="1051b8711d67567c920cc75364cfb7bd7aa253a9" />
+
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="CyanogenMod" revision="2d5c64cee5ecd825a7cb21ec4cbf09ea148cc5e7" />
+
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="CyanogenMod" revision="422d005055d1da1b8a3ed42af9298a486963901d" />
+
+  <remove-project name="platform/system/vold" />
+  <project path="system/vold" name="android_system_vold" remote="CyanogenMod" revision="86a8855d818cb087f2d77cdd37365b4acec3c266" />
+
+</manifest>
+

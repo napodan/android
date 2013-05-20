@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/bootable/bootloader/legacy" />
+  <remove-project name="platform/bootable/diskinstaller" />
+  <remove-project name="platform/cts" />
+  <remove-project name="device/google/accessory/arduino" />
+  <remove-project name="device/google/accessory/demokit" />
+  <remove-project name="device/htc/passion-common" />
+  <remove-project name="device/samsung/crespo4g" />
+  <remove-project name="platform/external/astl" />
+  <remove-project name="platform/external/netcat" />
+  <remove-project name="platform/external/netperf" />
+  <remove-project name="platform/external/quake" />
+  <remove-project name="platform/external/tcpdump" />
+  <remove-project name="platform/external/wpa_supplicant" />
+  <remove-project name="platform/hardware/ti/omap3" />
+  <remove-project name="platform/hardware/ti/wlan" />
+  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
+  <remove-project name="platform/packages/apps/Gallery" />
+  <remove-project name="platform/packages/apps/Protips" />
+  <remove-project name="platform/packages/apps/Provision" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/packages/apps/SmartCardService" />
+  <remove-project name="platform/packages/apps/SpeechRecorder" />
+  <remove-project name="platform/packages/apps/VoiceDialer" />
+  <remove-project name="platform/packages/experimental" />
+  <remove-project name="platform/packages/inputmethods/OpenWnn" />
+  <remove-project name="platform/packages/inputmethods/PinyinIME" />
+  <remove-project name="platform/packages/wallpapers/Basic" />
+  <remove-project name="platform/packages/wallpapers/MagicSmoke" />
+  <remove-project name="platform/packages/wallpapers/MusicVisualization" />
+  <remove-project name="platform/packages/providers/GoogleContactsProvider" />
+  <remove-project name="platform/system/wlan/ti" />
+
+</manifest>
+
