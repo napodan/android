@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="kernel/napodan/thalamus" name="thalamus-kernel" remote="napodan" revision="refs/tags/2.6.35_r4-8x50"/>
+
+</manifest>
+

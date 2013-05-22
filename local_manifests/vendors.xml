@@ -3,6 +3,7 @@
   <project path="vendor/oxygen" name="android_vendor_oxygen" remote="oxygen" revision="gingerbread" />
   <project path="vendor/google" name="android_vendor_google" remote="oxygen" revision="gingerbread" />
   <project path="vendor/htc" name="android_vendor_htc" remote="oxygen" revision="gingerbread" />
+  <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="oxygen" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="oxygen" revision="gingerbread" />
 
 </manifest>
