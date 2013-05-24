@@ -74,5 +74,7 @@
   <remove-project name="platform/system/core" />
   <project path="system/core" name="android_system_core" remote="oxygen" revision="gingerbread" />
 
+  <project path="system/extras/su" name="su-binary" revision="263b17e0eed2d98afc64b660c31bed668045bc86" remote="napodan" />
+
 </manifest>
 
