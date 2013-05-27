@@ -1,6 +1,6 @@
 Getting the oxygen sources :
 
-repo init -u git://github.com/napodan/android -b oxygen
+repo init -u git://github.com/napodan/android -b newoxygen
 
 You will got an error message :
 
@@ -11,7 +11,7 @@ fatal: remote aosp not defined in .../.repo/manifests/default.xml
 
 ln -s manifests/local_manifests .repo/
 
-repo init -u git://github.com/napodan/android -b oxygen
+repo init -u git://github.com/napodan/android -b newoxygen
 
 (You must have no error)
 
