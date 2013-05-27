@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="platform/build" />
-  <project path="build" name="android_build" remote="oxygen" revision="gingerbread">
+  <project path="build" name="android_build" remote="napodan" revision="newoxygen">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -62,6 +62,9 @@
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_settings" remote="oxygen" revision="gingerbread" />
 
+  <remove-project name="platform/packages/wallpapers/LivePicker" />
+  <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_livepicker" remote="napodan" revision="newoxygen" />
+
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_downloadprovider" remote="oxygen" revision="gingerbread" />
 
@@ -74,7 +77,9 @@
   <remove-project name="platform/system/core" />
   <project path="system/core" name="android_system_core" remote="oxygen" revision="gingerbread" />
 
-  <project path="system/extras/su" name="su-binary" revision="263b17e0eed2d98afc64b660c31bed668045bc86" remote="napodan" />
+  <project path="packages/apps/Superuser" name="Superuser" remote="napodan" revision="newoxygen" />
+
+  <project path="system/extras/su" name="su-binary" remote="napodan" revision="newoxygen" />
 
 </manifest>
 

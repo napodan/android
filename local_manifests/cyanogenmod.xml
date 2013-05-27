@@ -24,8 +24,6 @@
 
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="CyanogenMod" revision="894ab4d6e8dccae9da518986bdf08a343d728855" />
 
-  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="CyanogenMod" revision="1051b8711d67567c920cc75364cfb7bd7aa253a9" />
-
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="CyanogenMod" revision="2d5c64cee5ecd825a7cb21ec4cbf09ea148cc5e7" />
 
   <remove-project name="platform/packages/inputmethods/LatinIME" />
