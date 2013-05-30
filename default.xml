@@ -24,22 +24,22 @@
   <project path="device/samsung/crespo" name="device/samsung/crespo" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
   <project path="external/apache-http" name="platform/external/apache-http" />
-  <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bison" name="platform/external/bison" />
-  <project path="external/blktrace" name="platform/external/blktrace" />
+  <project path="external/astl" name="platform/external/astl" revision="android-4.2.2_r1.2" />
+  <project path="external/bison" name="platform/external/bison" revision="android-4.2.2_r1.2" />
+  <project path="external/blktrace" name="platform/external/blktrace" revision="android-4.2.2_r1.2" />
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/bzip2" name="platform/external/bzip2" />
+  <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" revision="android-4.2.2_r1.2" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="platform/external/clearsilver" />
-  <project path="external/dbus" name="platform/external/dbus" />
+  <project path="external/dbus" name="platform/external/dbus" groups="pdk" revision="android-4.2.2_r1.2" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" />
-  <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" revision="android-4.2.2_r1.2" />
+  <project path="external/dropbear" name="platform/external/dropbear" revision="android-4.2.2_r1.2" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" revision="android-4.2.2_r1.2" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/elfcopy" name="platform/external/elfcopy" />
   <project path="external/elfutils" name="platform/external/elfutils" />
