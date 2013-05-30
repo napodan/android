@@ -1,180 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <default revision="refs/tags/android-2.3.7_r1"
+  <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-j="4" />
 
   <project path="build" name="platform/build">
-    <copyfile src="core/root.mk" dest="Makefile" />
+    <copyfile src="core/root.mk" dest="Makefile" revision="refs/tags/android-2.3.7_r1" />
   </project>
-  <project path="bionic" name="platform/bionic" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
-  <project path="cts" name="platform/cts" />
+  <project path="bionic" name="platform/bionic" revision="refs/tags/android-2.3.7_r1" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="refs/tags/android-2.3.7_r1" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="refs/tags/android-2.3.7_r1" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="refs/tags/android-2.3.7_r1" />
+  <project path="cts" name="platform/cts" revision="refs/tags/android-2.3.7_r1" />
   <project path="dalvik" name="platform/dalvik" revision="d0d351b2ef726ff1b76a3efb4aad91e4d1436f6a" />
   <project path="development" name="platform/development" revision="894a63dd6eb8a1c675c21a8a10eff8c0118890c8" />
-  <project path="device/common" name="device/common" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-  <project path="device/htc/common" name="device/htc/common" />
-  <project path="device/htc/passion" name="device/htc/passion" />
-  <project path="device/htc/passion-common" name="device/htc/passion-common" />
-  <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" />
-  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
-  <project path="external/apache-http" name="platform/external/apache-http" />
-  <project path="external/astl" name="platform/external/astl" revision="refs/tags/android-4.2.2_r1.2" />
-  <project path="external/bison" name="platform/external/bison" revision="refs/tags/android-4.2.2_r1.2" />
-  <project path="external/blktrace" name="platform/external/blktrace" revision="refs/tags/android-4.2.2_r1.2" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" />
-  <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <project path="external/chromium" name="platform/external/chromium" />
-  <project path="external/clearsilver" name="platform/external/clearsilver" />
-  <project path="external/dbus" name="platform/external/dbus" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <project path="external/dropbear" name="platform/external/dropbear" revision="refs/tags/android-4.2.2_r1.2" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <project path="external/easymock" name="platform/external/easymock" revision="refs/tags/android-4.2.2_r1.2" />
-  <project path="external/elfcopy" name="platform/external/elfcopy" />
-  <project path="external/elfutils" name="platform/external/elfutils" />
-  <project path="external/embunit" name="platform/external/embunit" revision="refs/tags/android-4.2.2_r1.2" />
-  <project path="external/emma" name="platform/external/emma" revision="refs/tags/android-4.2.2_r1.2" />
-  <project path="external/esd" name="platform/external/esd" revision="refs/tags/android-4.2.2_r1.2" />
-  <project path="external/expat" name="platform/external/expat" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/freetype" name="platform/external/freetype" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
-  <project path="external/genext2fs" name="platform/external/genext2fs" />
-  <project path="external/giflib" name="platform/external/giflib" />
+  <project path="device/common" name="device/common" revision="refs/tags/android-2.3.7_r1" />
+  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" revision="refs/tags/android-2.3.7_r1" />
+  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" revision="refs/tags/android-2.3.7_r1" />
+  <project path="device/htc/common" name="device/htc/common" revision="refs/tags/android-2.3.7_r1" />
+  <project path="device/htc/passion" name="device/htc/passion" revision="refs/tags/android-2.3.7_r1" />
+  <project path="device/htc/passion-common" name="device/htc/passion-common" revision="refs/tags/android-2.3.7_r1" />
+  <project path="device/sample" name="device/sample" revision="refs/tags/android-2.3.7_r1" />
+  <project path="device/samsung/crespo" name="device/samsung/crespo" revision="refs/tags/android-2.3.7_r1" />
+  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/apache-http" name="platform/external/apache-http" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/astl" name="platform/external/astl" />
+  <project path="external/bison" name="platform/external/bison" />
+  <project path="external/blktrace" name="platform/external/blktrace" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/bsdiff" name="platform/external/bsdiff" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
+  <project path="external/chromium" name="platform/external/chromium" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/clearsilver" name="platform/external/clearsilver" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/dbus" name="platform/external/dbus" groups="pdk" />
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
+  <project path="external/dropbear" name="platform/external/dropbear" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+  <project path="external/easymock" name="platform/external/easymock" />
+  <project path="external/elfcopy" name="platform/external/elfcopy" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/elfutils" name="platform/external/elfutils" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/embunit" name="platform/external/embunit" />
+  <project path="external/emma" name="platform/external/emma" />
+  <project path="external/esd" name="platform/external/esd" />
+  <project path="external/expat" name="platform/external/expat" />
+  <project path="external/fdlibm" name="platform/external/fdlibm" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/freetype" name="platform/external/freetype" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/genext2fs" name="platform/external/genext2fs" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/giflib" name="platform/external/giflib" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/grub" name="platform/external/grub" revision="c50afe926cb430059604727b3d6336c580f425ad" />
-  <project path="external/gtest" name="platform/external/gtest" />
-  <project path="external/guava" name="platform/external/guava" />
-  <project path="external/icu4c" name="platform/external/icu4c" />
-  <project path="external/iproute2" name="platform/external/iproute2" />
-  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
-  <project path="external/iptables" name="platform/external/iptables" />
-  <project path="external/jdiff" name="platform/external/jdiff" />
-  <project path="external/jhead" name="platform/external/jhead" />
-  <project path="external/jpeg" name="platform/external/jpeg" />
-  <project path="external/jsr305" name="platform/external/jsr305" />
-  <project path="external/junit" name="platform/external/junit" />
+  <project path="external/gtest" name="platform/external/gtest" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/guava" name="platform/external/guava" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/icu4c" name="platform/external/icu4c" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/iproute2" name="platform/external/iproute2" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/iptables" name="platform/external/iptables" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/jdiff" name="platform/external/jdiff" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/jhead" name="platform/external/jhead" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/jpeg" name="platform/external/jpeg" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/jsr305" name="platform/external/jsr305" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/junit" name="platform/external/junit" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="dd8b731fbe68c7e9f8bdc6fcc49397bf0ba93d32" />
-  <project path="external/libffi" name="platform/external/libffi" />
-  <project path="external/libgsm" name="platform/external/libgsm" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
-  <project path="external/libpcap" name="platform/external/libpcap" />
-  <project path="external/libpng" name="platform/external/libpng" />
-  <project path="external/libvpx" name="platform/external/libvpx" />
-  <project path="external/libxml2" name="platform/external/libxml2" />
-  <project path="external/mtpd" name="platform/external/mtpd" />
-  <project path="external/netcat" name="platform/external/netcat" />
-  <project path="external/netperf" name="platform/external/netperf" />
-  <project path="external/neven" name="platform/external/neven" />
-  <project path="external/nist-sip" name="platform/external/nist-sip" />
-  <project path="external/oauth" name="platform/external/oauth" />
-  <project path="external/openssl" name="platform/external/openssl" />
-  <project path="external/oprofile" name="platform/external/oprofile" />
-  <project path="external/ping" name="platform/external/ping" />
-  <project path="external/ppp" name="platform/external/ppp" />
-  <project path="external/proguard" name="platform/external/proguard" />
-  <project path="external/protobuf" name="platform/external/protobuf" />
-  <project path="external/qemu" name="platform/external/qemu" />
-  <project path="external/quake" name="platform/external/quake" />
-  <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/skia" name="platform/external/skia" />
-  <project path="external/sonivox" name="platform/external/sonivox" />
-  <project path="external/speex" name="platform/external/speex" />
-  <project path="external/sqlite" name="platform/external/sqlite" />
-  <project path="external/srec" name="platform/external/srec" />
+  <project path="external/libffi" name="platform/external/libffi" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/libgsm" name="platform/external/libgsm" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/libpcap" name="platform/external/libpcap" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/libpng" name="platform/external/libpng" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/libvpx" name="platform/external/libvpx" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/libxml2" name="platform/external/libxml2" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/mtpd" name="platform/external/mtpd" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/netcat" name="platform/external/netcat" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/netperf" name="platform/external/netperf" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/neven" name="platform/external/neven" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/nist-sip" name="platform/external/nist-sip" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/oauth" name="platform/external/oauth" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/openssl" name="platform/external/openssl" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/oprofile" name="platform/external/oprofile" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/ping" name="platform/external/ping" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/ppp" name="platform/external/ppp" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/proguard" name="platform/external/proguard" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/protobuf" name="platform/external/protobuf" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/qemu" name="platform/external/qemu" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/quake" name="platform/external/quake" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/safe-iop" name="platform/external/safe-iop" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/skia" name="platform/external/skia" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/sonivox" name="platform/external/sonivox" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/speex" name="platform/external/speex" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/sqlite" name="platform/external/sqlite" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/srec" name="platform/external/srec" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/stlport" name="platform/external/stlport" revision="aaea6ca1dc413af304d93da866cad9e6f4e6c299" />
-  <project path="external/strace" name="platform/external/strace" />
-  <project path="external/svox" name="platform/external/svox" />
-  <project path="external/tagsoup" name="platform/external/tagsoup" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" />
-  <project path="external/tinyxml" name="platform/external/tinyxml" />
+  <project path="external/strace" name="platform/external/strace" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/svox" name="platform/external/svox" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/tagsoup" name="platform/external/tagsoup" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/tcpdump" name="platform/external/tcpdump" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/tremolo" name="platform/external/tremolo" revision="69a9d313a91bc0cc1ac4aa98d0abdebdc5f9f9a0" />
-  <project path="external/v8" name="platform/external/v8" />
-  <project path="external/webkit" name="platform/external/webkit" />
-  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
-  <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" />
-  <project path="external/zlib" name="platform/external/zlib" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="external/v8" name="platform/external/v8" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/webkit" name="platform/external/webkit" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/xmlwriter" name="platform/external/xmlwriter" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/yaffs2" name="platform/external/yaffs2" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/zlib" name="platform/external/zlib" revision="refs/tags/android-2.3.7_r1" />
+  <project path="frameworks/base" name="platform/frameworks/base" revision="refs/tags/android-2.3.7_r1" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="a3684d4db1a0505efc26d6c9ccedd76a71550e5b" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="refs/tags/android-2.3.7_r1" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-2.3.7_r1" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="33fddf0ca9801080472116654264be63a21b6e80" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="libcore" name="platform/libcore" />
-  <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" />
-  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
-  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
-  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
-  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
-  <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
-  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
-  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
-  <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
-  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
-  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="refs/tags/android-2.3.7_r1" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="refs/tags/android-2.3.7_r1" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="refs/tags/android-2.3.7_r1" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="refs/tags/android-2.3.7_r1" />
+  <project path="hardware/ril" name="platform/hardware/ril" revision="refs/tags/android-2.3.7_r1" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="refs/tags/android-2.3.7_r1" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="refs/tags/android-2.3.7_r1" />
+  <project path="libcore" name="platform/libcore" revision="refs/tags/android-2.3.7_r1" />
+  <project path="ndk" name="platform/ndk" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/experimental" name="platform/packages/experimental" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="refs/tags/android-2.3.7_r1" />
   <project path="prebuilt" name="platform/prebuilt" revision="686f8657e88ebc8259863f8212c3a02c060c52ce" />
-  <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="platform/system/core" />
-  <project path="system/extras" name="platform/system/extras" />
+  <project path="sdk" name="platform/sdk" revision="refs/tags/android-2.3.7_r1" />
+  <project path="system/bluetooth" name="platform/system/bluetooth" revision="refs/tags/android-2.3.7_r1" />
+  <project path="system/core" name="platform/system/core" revision="refs/tags/android-2.3.7_r1" />
+  <project path="system/extras" name="platform/system/extras" revision="refs/tags/android-2.3.7_r1" />
   <project path="system/media" name="platform/system/media" revision="0dc351beb3357f71ef4a04c088eb69c38dd98d8d" />
-  <project path="system/netd" name="platform/system/netd" />
-  <project path="system/vold" name="platform/system/vold" />
-  <project path="system/wlan/ti" name="platform/system/wlan/ti" />
+  <project path="system/netd" name="platform/system/netd" revision="refs/tags/android-2.3.7_r1" />
+  <project path="system/vold" name="platform/system/vold" revision="refs/tags/android-2.3.7_r1" />
+  <project path="system/wlan/ti" name="platform/system/wlan/ti" revision="refs/tags/android-2.3.7_r1" />
 
 </manifest>
