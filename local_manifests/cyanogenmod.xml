@@ -8,9 +8,6 @@
 
   <project path="external/busybox" name="android_external_busybox" remote="CyanogenMod" revision="29d8ebe3459c19759de19df0d6cadcbfc419946a" />
 
-  <remove-project name="platform/external/e2fsprogs" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="CyanogenMod" revision="refs/tags/cm-7.1.0" />
-
   <remove-project name="platform/external/openssl" />
   <project path="external/openssl" name="android_external_openssl" remote="CyanogenMod" revision="refs/tags/cm-7.1.0" />
 
