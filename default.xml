@@ -46,26 +46,26 @@
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
-  <project path="external/expat" name="platform/external/expat" />
+  <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/freetype" name="platform/external/freetype" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/genext2fs" name="platform/external/genext2fs" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/giflib" name="platform/external/giflib" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/grub" name="platform/external/grub" revision="c50afe926cb430059604727b3d6336c580f425ad" />
-  <project path="external/gtest" name="platform/external/gtest" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/guava" name="platform/external/guava" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
+  <project path="external/genext2fs" name="platform/external/genext2fs" />
+  <project path="external/giflib" name="platform/external/giflib" />
+  <project path="external/grub" name="platform/external/grub" />
+  <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
+  <project path="external/guava" name="platform/external/guava" />
   <project path="external/icu4c" name="platform/external/icu4c" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/iproute2" name="platform/external/iproute2" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/iptables" name="platform/external/iptables" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/jdiff" name="platform/external/jdiff" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/jpeg" name="platform/external/jpeg" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/jsr305" name="platform/external/jsr305" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
+  <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="dd8b731fbe68c7e9f8bdc6fcc49397bf0ba93d32" />
-  <project path="external/libffi" name="platform/external/libffi" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/libpcap" name="platform/external/libpcap" revision="refs/tags/android-2.3.7_r1" />
