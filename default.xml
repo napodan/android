@@ -89,23 +89,23 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/skia" name="platform/external/skia" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
-  <project path="external/speex" name="platform/external/speex" groups="pdk" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/srec" name="platform/external/srec" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" revision="aaea6ca1dc413af304d93da866cad9e6f4e6c299" />
-  <project path="external/strace" name="platform/external/strace" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/srec" name="platform/external/srec" />
+  <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
+  <project path="external/strace" name="platform/external/strace" />
   <project path="external/svox" name="platform/external/svox" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/tagsoup" name="platform/external/tagsoup" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/tinyxml" name="platform/external/tinyxml" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/tremolo" name="platform/external/tremolo" revision="69a9d313a91bc0cc1ac4aa98d0abdebdc5f9f9a0" />
+  <project path="external/tagsoup" name="platform/external/tagsoup" />
+  <project path="external/tcpdump" name="platform/external/tcpdump" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" />
+  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/webkit" name="platform/external/webkit" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/xmlwriter" name="platform/external/xmlwriter" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/zlib" name="platform/external/zlib" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/xmlwriter" name="platform/external/xmlwriter" />
+  <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="refs/tags/android-2.3.7_r1" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="a3684d4db1a0505efc26d6c9ccedd76a71550e5b" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="refs/tags/android-2.3.7_r1" />
