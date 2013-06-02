@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/build" />
+  <project path="build" name="android_build" remote="napodan" revision="newoxygen">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="newoxygen" />
+  
+  <remove-project name="platform/packages/wallpapers/LivePicker" />
+  <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_livepicker" remote="napodan" revision="newoxygen" />
+
+  <remove-project name="platform/packages/apps/SoundRecorder" />
+  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="napodan" revision="newoxygen" />
+
+  <project path="packages/apps/Superuser" name="Superuser" remote="napodan" revision="newoxygen" />
+
+  <project path="system/extras/su" name="su-binary" remote="napodan" revision="newoxygen" />
+
+
+</manifest>
+
