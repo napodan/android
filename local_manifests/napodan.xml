@@ -5,6 +5,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="android_bionic" remote="napodan" revision="newoxygen" />
+  
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="newoxygen" />
   

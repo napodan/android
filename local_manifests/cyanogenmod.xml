@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="device/htc/common" />
   <project path="device/htc/common" name="android_device_htc_common" remote="CyanogenMod" revision="refs/tags/cm-7.1.0" />
-
-  <remove-project name="device/samsung/crespo4g" />
-  <project path="device/samsung/crespo4g" name="android_device_samsung_crespo4g" remote="CyanogenMod" revision="c4332178e22ee6930b70c557bdbc48a438a0c216" />
 
   <project path="external/busybox" name="android_external_busybox" remote="CyanogenMod" revision="29d8ebe3459c19759de19df0d6cadcbfc419946a" />
 

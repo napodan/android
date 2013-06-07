@@ -7,22 +7,17 @@
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" revision="refs/tags/android-2.3.7_r1" />
   </project>
-  <project path="bionic" name="platform/bionic" revision="refs/tags/android-2.3.7_r1" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="refs/tags/android-2.3.7_r1" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="refs/tags/android-2.3.7_r1" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" revision="refs/tags/android-2.3.7_r1" />
-  <project path="cts" name="platform/cts" revision="refs/tags/android-2.3.7_r1" />
+  <project path="bionic" name="platform/bionic" groups="pdk" revision="refs/tags/android-2.3.7_r1" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="refs/tags/android-2.3.7_r1" />
+  <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" revision="d0d351b2ef726ff1b76a3efb4aad91e4d1436f6a" />
   <project path="development" name="platform/development" revision="894a63dd6eb8a1c675c21a8a10eff8c0118890c8" />
-  <project path="device/common" name="device/common" revision="refs/tags/android-2.3.7_r1" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" revision="refs/tags/android-2.3.7_r1" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" revision="refs/tags/android-2.3.7_r1" />
-  <project path="device/htc/common" name="device/htc/common" revision="refs/tags/android-2.3.7_r1" />
-  <project path="device/htc/passion" name="device/htc/passion" revision="refs/tags/android-2.3.7_r1" />
-  <project path="device/htc/passion-common" name="device/htc/passion-common" revision="refs/tags/android-2.3.7_r1" />
-  <project path="device/sample" name="device/sample" revision="refs/tags/android-2.3.7_r1" />
-  <project path="device/samsung/crespo" name="device/samsung/crespo" revision="refs/tags/android-2.3.7_r1" />
-  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" revision="refs/tags/android-2.3.7_r1" />
+  <project path="device/common" name="device/common" />
+  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
+  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/sample" name="device/sample" groups="pdk" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/apache-http" name="platform/external/apache-http" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
@@ -31,7 +26,7 @@
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/bsdiff" name="platform/external/bsdiff" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/chromium" name="platform/external/chromium" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/clearsilver" name="platform/external/clearsilver" revision="refs/tags/android-2.3.7_r1" />
@@ -60,7 +55,7 @@
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/iptables" name="platform/external/iptables" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/jdiff" name="platform/external/jdiff" />
-  <project path="external/jhead" name="platform/external/jhead" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/jhead" name="platform/external/jhead" groups="pdk" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" revision="refs/tags/android-2.3.7_r1" />

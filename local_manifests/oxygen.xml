@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="platform/bionic" />
-  <project path="bionic" name="android_bionic" remote="oxygen" revision="gingerbread" />
-
   <remove-project name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="oxygen" revision="gingerbread" />
-
-  <remove-project name="device/htc/passion" />
-  <project path="device/htc/passion" name="android_device_htc_passion" remote="oxygen" revision="gingerbread" />
-
-  <remove-project name="device/samsung/crespo" />
-  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="oxygen" revision="gingerbread" />
 
   <remove-project name="platform/external/skia" />
   <project path="external/skia" name="android_external_skia" remote="oxygen" revision="gingerbread" />
