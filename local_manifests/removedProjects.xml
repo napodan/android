@@ -5,7 +5,6 @@
   <remove-project name="platform/cts" />
   <remove-project name="device/google/accessory/arduino" />
   <remove-project name="device/google/accessory/demokit" />
-  <remove-project name="device/htc/passion-common" />
   <remove-project name="platform/external/astl" />
   <remove-project name="platform/external/netcat" />
   <remove-project name="platform/external/netperf" />
