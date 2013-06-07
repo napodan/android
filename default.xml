@@ -17,7 +17,7 @@
   <project path="device/common" name="device/common" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/sample" name="device/sample" groups="pdk" revision="refs/tags/android-2.3.7_r1" />
+  <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="external/apache-http" name="platform/external/apache-http" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
