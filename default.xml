@@ -36,8 +36,7 @@
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" />
-  <project path="external/elfcopy" name="platform/external/elfcopy" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/elfutils" name="platform/external/elfutils" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
@@ -62,7 +61,7 @@
   <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="dd8b731fbe68c7e9f8bdc6fcc49397bf0ba93d32" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="nxp_nfc" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
@@ -108,7 +107,7 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="33fddf0ca9801080472116654264be63a21b6e80" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="refs/tags/android-2.3.7_r1" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="refs/tags/android-2.3.7_r1" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" revision="refs/tags/android-2.3.7_r1" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="refs/tags/android-2.3.7_r1" />
   <project path="hardware/ril" name="platform/hardware/ril" revision="refs/tags/android-2.3.7_r1" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="refs/tags/android-2.3.7_r1" />
