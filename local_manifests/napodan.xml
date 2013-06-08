@@ -10,7 +10,10 @@
   
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="newoxygen" />
-  
+
+  <remove-project name="platform/hardware/qcom/gps" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="napodan" revision="newoxygen" />
+
   <remove-project name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_livepicker" remote="napodan" revision="newoxygen" />
 
