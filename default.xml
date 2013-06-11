@@ -108,67 +108,65 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="refs/tags/android-2.3.7_r1" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="refs/tags/android-2.3.7_r1" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" revision="refs/tags/android-2.3.7_r1" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
   <project path="hardware/ril" name="platform/hardware/ril" revision="refs/tags/android-2.3.7_r1" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="refs/tags/android-2.3.7_r1" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="refs/tags/android-2.3.7_r1" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="libcore" name="platform/libcore" revision="refs/tags/android-2.3.7_r1" />
-  <project path="ndk" name="platform/ndk" revision="refs/tags/android-2.3.7_r1" />
+  <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="platform/packages/apps/Gallery3D" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/experimental" name="platform/packages/experimental" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="refs/tags/android-2.3.7_r1" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
   <project path="prebuilt" name="platform/prebuilt" revision="686f8657e88ebc8259863f8212c3a02c060c52ce" />
   <project path="sdk" name="platform/sdk" revision="refs/tags/android-2.3.7_r1" />
   <project path="system/bluetooth" name="platform/system/bluetooth" revision="refs/tags/android-2.3.7_r1" />
   <project path="system/core" name="platform/system/core" revision="refs/tags/android-2.3.7_r1" />
   <project path="system/extras" name="platform/system/extras" revision="refs/tags/android-2.3.7_r1" />
-  <project path="system/media" name="platform/system/media" revision="0dc351beb3357f71ef4a04c088eb69c38dd98d8d" />
+  <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" revision="refs/tags/android-2.3.7_r1" />
   <project path="system/vold" name="platform/system/vold" revision="refs/tags/android-2.3.7_r1" />
-  <project path="system/wlan/ti" name="platform/system/wlan/ti" revision="refs/tags/android-2.3.7_r1" />
 
 </manifest>

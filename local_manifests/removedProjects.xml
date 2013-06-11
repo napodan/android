@@ -28,8 +28,6 @@
   <remove-project name="platform/packages/wallpapers/Basic" />
   <remove-project name="platform/packages/wallpapers/MagicSmoke" />
   <remove-project name="platform/packages/wallpapers/MusicVisualization" />
-  <remove-project name="platform/packages/providers/GoogleContactsProvider" />
-  <remove-project name="platform/system/wlan/ti" />
 
 </manifest>
 
