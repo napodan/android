@@ -26,9 +26,7 @@ Building the oxygen rom :
 
 lunch oxygen_bravo-user
 
-make -j4 update-api
-
-make -j4
+./bionic/libc/kernel/tools/update_all.py
 
 make -j4 oxygen
 
