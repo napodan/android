@@ -8,6 +8,9 @@
   <remove-project name="platform/bionic" />
   <project path="bionic" name="android_bionic" remote="napodan" revision="newoxygen" />
   
+  <remove-project name="platform/external/kernel-headers" />
+  <project path="external/kernel-headers" name="android_external_kernel-headers" remote="napodan" revision="newoxygen" />
+  
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="newoxygen" />
 
