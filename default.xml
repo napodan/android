@@ -69,7 +69,7 @@
   <project path="external/mtpd" name="platform/external/mtpd" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
-  <project path="external/neven" name="platform/external/neven" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/neven" name="platform/external/neven" />
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" revision="refs/tags/android-2.3.7_r1" />
@@ -102,7 +102,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="frameworks/base" name="platform/frameworks/base" revision="refs/tags/android-2.3.7_r1" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="a3684d4db1a0505efc26d6c9ccedd76a71550e5b" />
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="refs/tags/android-2.3.7_r1" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-2.3.7_r1" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="33fddf0ca9801080472116654264be63a21b6e80" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="refs/tags/android-2.3.7_r1" />
