@@ -28,6 +28,8 @@ lunch oxygen_bravo-user
 
 ./bionic/libc/kernel/tools/update_all.py
 
+./bionic/libc/tools/gensyscalls.py
+
 make -j4 oxygen
 
 

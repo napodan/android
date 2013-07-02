@@ -2,8 +2,6 @@
 <manifest>
   <project path="device/htc/common" name="android_device_htc_common" remote="CyanogenMod" revision="refs/tags/cm-7.1.0" />
 
-  <project path="external/busybox" name="android_external_busybox" remote="CyanogenMod" revision="29d8ebe3459c19759de19df0d6cadcbfc419946a" />
-
   <remove-project name="platform/external/openssl" />
   <project path="external/openssl" name="android_external_openssl" remote="CyanogenMod" revision="refs/tags/cm-7.1.0" />
 

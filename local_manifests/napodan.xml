@@ -17,6 +17,8 @@
   <remove-project name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="napodan" revision="newoxygen" />
 
+  <project path="external/busybox" name="android_external_busybox" remote="napodan" revision="newoxygen" />
+
   <remove-project name="platform/external/jhead" />
   <project path="external/jhead" name="android_external_jhead" remote="napodan" revision="newoxygen" />
 
