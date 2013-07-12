@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="oxygen" revision="gingerbread" />
-
   <remove-project name="platform/external/skia" />
   <project path="external/skia" name="android_external_skia" remote="oxygen" revision="gingerbread" />
   

@@ -10,7 +10,7 @@
   <project path="bionic" name="platform/bionic" groups="pdk" revision="refs/tags/android-2.3.7_r1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="refs/tags/android-2.3.7_r1" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" revision="d0d351b2ef726ff1b76a3efb4aad91e4d1436f6a" />
   <project path="development" name="platform/development" revision="894a63dd6eb8a1c675c21a8a10eff8c0118890c8" />
