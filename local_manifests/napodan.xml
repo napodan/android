@@ -73,6 +73,9 @@
     <remove-project name="platform/system/core" />
   <project path="system/core" name="android_system_core" remote="napodan" revision="newoxygen" />
 
+    <remove-project name="platform/system/extras" />
+  <project path="system/netd" name="android_system_extras" remote="napodan" revision="newoxygen" />
+
     <remove-project name="platform/system/netd" />
   <project path="system/netd" name="android_system_netd" remote="napodan" revision="newoxygen" />
 
