@@ -26,7 +26,7 @@
   <project path="external/kernel-headers" name="android_external_kernel-headers" remote="napodan" revision="newoxygen" />
 
   <remove-project name="platform/external/fdlibm" />
-  <project path="external/jhead" name="android_external_fdlibm" remote="napodan" revision="newoxygen" />
+  <project path="external/fdlibm" name="android_external_fdlibm" remote="napodan" revision="newoxygen" />
 
   <remove-project name="platform/external/sqlite" />
   <project path="external/sqlite" name="android_external_sqlite" remote="napodan" revision="newoxygen" />
@@ -74,7 +74,7 @@
   <project path="system/core" name="android_system_core" remote="napodan" revision="newoxygen" />
 
     <remove-project name="platform/system/extras" />
-  <project path="system/netd" name="android_system_extras" remote="napodan" revision="newoxygen" />
+  <project path="system/extras" name="android_system_extras" remote="napodan" revision="newoxygen" />
 
     <remove-project name="platform/system/netd" />
   <project path="system/netd" name="android_system_netd" remote="napodan" revision="newoxygen" />
