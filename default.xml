@@ -50,7 +50,7 @@
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" />
   <project path="external/icu4c" name="platform/external/icu4c" revision="refs/tags/android-2.3.7_r1" />
-  <project path="external/iproute2" name="platform/external/iproute2" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/iptables" name="platform/external/iptables" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/jdiff" name="platform/external/jdiff" />
