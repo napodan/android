@@ -25,9 +25,6 @@
   <remove-project name="platform/external/kernel-headers" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" remote="napodan" revision="newoxygen" />
 
-  <remove-project name="platform/external/fdlibm" />
-  <project path="external/fdlibm" name="android_external_fdlibm" remote="napodan" revision="newoxygen" />
-
   <remove-project name="platform/external/sqlite" />
   <project path="external/sqlite" name="android_external_sqlite" remote="napodan" revision="newoxygen" />
 

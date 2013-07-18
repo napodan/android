@@ -41,7 +41,7 @@
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
-  <project path="external/fdlibm" name="platform/external/fdlibm" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
