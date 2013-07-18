@@ -2,9 +2,6 @@
 <manifest>
   <project path="device/htc/common" name="android_device_htc_common" remote="CyanogenMod" revision="refs/tags/cm-7.1.0" />
 
-  <remove-project name="platform/external/openssl" />
-  <project path="external/openssl" name="android_external_openssl" remote="CyanogenMod" revision="refs/tags/cm-7.1.0" />
-
   <remove-project name="platform/external/yaffs2" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="CyanogenMod" revision="refs/tags/cm-7.1.0" />
 
