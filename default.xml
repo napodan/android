@@ -49,6 +49,7 @@
   <project path="external/grub" name="platform/external/grub" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" />
+  <project path="external/hamcrest" name="platform/external/hamcrest" />
   <project path="external/icu4c" name="platform/external/icu4c" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/iproute2" name="platform/external/iproute2" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
@@ -57,7 +58,7 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/jsr305" name="platform/external/jsr305" />
-  <project path="external/junit" name="platform/external/junit" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="dd8b731fbe68c7e9f8bdc6fcc49397bf0ba93d32" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
