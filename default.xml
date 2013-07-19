@@ -54,7 +54,7 @@
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
   <project path="external/jdiff" name="platform/external/jdiff" />
-  <project path="external/jhead" name="platform/external/jhead" groups="pdk" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" revision="refs/tags/android-2.3.7_r1" />
