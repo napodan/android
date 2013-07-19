@@ -64,6 +64,9 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="napodan" revision="newoxygen" />
 
+  <remove-project name="platform/prebuilts/tools" />
+  <project path="prebuilts/tools" name="android_prebuilts_tools" remote="napodan" revision="newoxygen" />
+
     <remove-project name="platform/system/bluetooth" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="napodan" revision="newoxygen" />
 
