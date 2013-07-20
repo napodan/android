@@ -10,7 +10,6 @@
   <remove-project name="platform/external/netperf" />
   <remove-project name="platform/external/quake" />
   <remove-project name="platform/external/tcpdump" />
-  <remove-project name="platform/external/wpa_supplicant" />
   <remove-project name="platform/hardware/ti/omap3" />
   <remove-project name="platform/hardware/ti/wlan" />
   <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
