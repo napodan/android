@@ -164,8 +164,9 @@
   <project path="prebuilt" name="platform/prebuilt" revision="686f8657e88ebc8259863f8212c3a02c060c52ce" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk" />  
-  <project path="sdk" name="platform/sdk" revision="refs/tags/android-2.3.7_r1" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk" />
+  <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" revision="refs/tags/android-2.3.7_r1" />
   <project path="system/core" name="platform/system/core" revision="refs/tags/android-2.3.7_r1" />
   <project path="system/extras" name="platform/system/extras" revision="refs/tags/android-2.3.7_r1" />

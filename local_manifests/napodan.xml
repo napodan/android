@@ -59,6 +59,9 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="napodan" revision="newoxygen" />
 
+  <remove-project name="platform/prebuilt" />
+  <project path="prebuilt" name="android_prebuilt" remote="napodan" revision="newoxygen" />
+
   <remove-project name="platform/prebuilts/tools" />
   <project path="prebuilts/tools" name="android_prebuilts_tools" remote="napodan" revision="newoxygen" />
 
