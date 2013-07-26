@@ -1,6 +1,6 @@
 Getting the oxygen sources :
 
-repo init -u git://github.com/napodan/android -b newoxygen
+repo init -u git://github.com/napodan/android -b oxygen_4.3
 
 You will got an error message :
 
@@ -11,7 +11,7 @@ fatal: remote aosp not defined in .../.repo/manifests/default.xml
 
 ln -s manifests/local_manifests .repo/
 
-repo init -u git://github.com/napodan/android -b newoxygen
+repo init -u git://github.com/napodan/android -b oxygen_4.3
 
 (You must have no error)
 
@@ -23,8 +23,6 @@ repo sync
 Building the oxygen rom :
 
 . build/envsetup.sh
-
-lunch oxygen_bravo-user
 
 ./bionic/libc/kernel/tools/update_all.py
 

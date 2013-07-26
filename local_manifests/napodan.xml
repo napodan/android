@@ -14,7 +14,6 @@
   <remove-project name="platform/development" />
   <project path="development" name="android_development" remote="napodan" revision="newoxygen" />
 
-  <remove-project name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="napodan" revision="newoxygen" />
 
   <remove-project name="platform/external/kernel-headers" />
@@ -41,7 +40,6 @@
   <remove-project name="platform/hardware/msm7k" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="napodan" revision="newoxygen" />
 
-  <remove-project name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="napodan" revision="newoxygen" />
 
   <remove-project name="platform/hardware/ril" />
@@ -59,11 +57,11 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="napodan" revision="newoxygen" />
 
+  <project path="prebuilt" name="android_prebuilt" remote="napodan" revision="newoxygen" />
+
   <remove-project name="platform/prebuilts/tools" />
   <project path="prebuilts/tools" name="android_prebuilts_tools" remote="napodan" revision="newoxygen" />
 
-  <remove-project name="platform/prebuilt" />
-  <project path="prebuilt" name="android_prebuilt" remote="napodan" revision="newoxygen" />
 
     <remove-project name="platform/system/bluetooth" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="napodan" revision="newoxygen" />

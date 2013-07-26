@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="platform/external/bison" />
+  <project path="external/bison" name="platform/external/bison" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/bootable/bootloader/legacy" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/bootable/diskinstaller" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/cts" />
+  <project path="cts" name="platform/cts" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/dalvik" />
+  <project path="dalvik" name="platform/dalvik" revision="d0d351b2ef726ff1b76a3efb4aad91e4d1436f6a" />
+  <remove-project name="platform/development" />
+  <project path="development" name="platform/development" revision="894a63dd6eb8a1c675c21a8a10eff8c0118890c8" />
+  <remove-project name="device/common" />
+  <project path="device/common" name="device/common" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="device/google/accessory/arduino" />
+  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="device/google/accessory/demokit" />
+  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="device/sample" />
+  <project path="device/sample" name="device/sample" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/bison" />
+  <project path="external/bison" name="platform/external/bison" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/blktrace" />
+  <project path="external/blktrace" name="platform/external/blktrace" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/bsdiff" />
+  <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/bzip2" />
+  <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <project path="external/dbus" name="platform/external/dbus" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/dhcpcd" />
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/dnsmasq" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/dropbear" />
+  <project path="external/dropbear" name="platform/external/dropbear" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/easymock" />
+  <project path="external/easymock" name="platform/external/easymock" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/elfutils" />
+  <project path="external/elfutils" name="platform/external/elfutils" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/embunit" />
+  <project path="external/embunit" name="platform/external/embunit" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/emma" />
+  <project path="external/emma" name="platform/external/emma" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/esd" />
+  <project path="external/esd" name="platform/external/esd" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/expat" />
+  <project path="external/expat" name="platform/external/expat" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/fdlibm" />
+  <project path="external/fdlibm" name="platform/external/fdlibm" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/freetype" />
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/fsck_msdos" />
+  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/gcc-demangle" />
+  <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/genext2fs" />
+  <project path="external/genext2fs" name="platform/external/genext2fs" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/giflib" />
+  <project path="external/giflib" name="platform/external/giflib" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/grub" />
+  <project path="external/grub" name="platform/external/grub" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/gtest" />
+  <project path="external/gtest" name="platform/external/gtest" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/guava" />
+  <project path="external/guava" name="platform/external/guava" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/hamcrest" />
+  <project path="external/hamcrest" name="platform/external/hamcrest" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/iproute2" />
+  <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/ipsec-tools" />
+  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/iptables" />
+  <project path="external/iptables" name="platform/external/iptables" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/jdiff" />
+  <project path="external/jdiff" name="platform/external/jdiff" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/jhead" />
+  <project path="external/jhead" name="platform/external/jhead" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/jpeg" />
+  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/jsr305" />
+  <project path="external/jsr305" name="platform/external/jsr305" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/junit" />
+  <project path="external/junit" name="platform/external/junit" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/kernel-headers" />
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="dd8b731fbe68c7e9f8bdc6fcc49397bf0ba93d32" />
+  <remove-project name="platform/external/libffi" />
+  <project path="external/libffi" name="platform/external/libffi" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/libgsm" />
+  <project path="external/libgsm" name="platform/external/libgsm" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/libnfc-nxp" />
+  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="nxp_nfc" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/libpcap" />
+  <project path="external/libpcap" name="platform/external/libpcap" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/libpng" />
+  <project path="external/libpng" name="platform/external/libpng" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/libvpx" />
+  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/libxml2" />
+  <project path="external/libxml2" name="platform/external/libxml2" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/mtpd" />
+  <project path="external/mtpd" name="platform/external/mtpd" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/netcat" />
+  <project path="external/netcat" name="platform/external/netcat" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/netperf" />
+  <project path="external/netperf" name="platform/external/netperf" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/neven" />
+  <project path="external/neven" name="platform/external/neven" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/nist-sip" />
+  <project path="external/nist-sip" name="platform/external/nist-sip" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/oauth" />
+  <project path="external/oauth" name="platform/external/oauth" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/openssl" />
+  <project path="external/openssl" name="platform/external/openssl" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/oprofile" />
+  <project path="external/oprofile" name="platform/external/oprofile" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/ping" />
+  <project path="external/ping" name="platform/external/ping" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/ppp" />
+  <project path="external/ppp" name="platform/external/ppp" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/proguard" />
+  <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/protobuf" />
+  <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/qemu" />
+  <project path="external/qemu" name="platform/external/qemu" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/quake" />
+  <project path="external/quake" name="platform/external/quake" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/safe-iop" />
+  <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/sonivox" />
+  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/speex" />
+  <project path="external/speex" name="platform/external/speex" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/srec" />
+  <project path="external/srec" name="platform/external/srec" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/stlport" />
+  <project path="external/stlport" name="platform/external/stlport" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/strace" />
+  <project path="external/strace" name="platform/external/strace" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/tagsoup" />
+  <project path="external/tagsoup" name="platform/external/tagsoup" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/tcpdump" />
+  <project path="external/tcpdump" name="platform/external/tcpdump" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/tinyxml" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/tremolo" />
+  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/xmlwriter" />
+  <project path="external/xmlwriter" name="platform/external/xmlwriter" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/yaffs2" />
+  <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/zlib" />
+  <project path="external/zlib" name="platform/external/zlib" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/frameworks/ex" />
+  <project path="frameworks/ex" name="platform/frameworks/ex" revision="a3684d4db1a0505efc26d6c9ccedd76a71550e5b" />
+  <remove-project name="platform/frameworks/opt/emoji" />
+  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="platform/hardware/libhardware" revision="33fddf0ca9801080472116654264be63a21b6e80" />
+  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/hardware/ti/omap3" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/hardware/ti/wlan" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/ndk" />
+  <project path="ndk" name="platform/ndk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
+  <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/apps/Gallery" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/apps/HTMLViewer" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/apps/Protips" />
+  <project path="packages/apps/Protips" name="platform/packages/apps/Protips" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/apps/Provision" />
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/apps/SmartCardService" />
+  <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/apps/SpeechRecorder" />
+  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/experimental" />
+  <project path="packages/experimental" name="platform/packages/experimental" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/inputmethods/OpenWnn" />
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/inputmethods/PinyinIME" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/wallpapers/Basic" />
+  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/wallpapers/MagicSmoke" />
+  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/packages/wallpapers/MusicVisualization" />
+  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" revision="refs/tags/android-4.2.2_r1.2" />
+  <project path="prebuilt" name="platform/prebuilt" revision="686f8657e88ebc8259863f8212c3a02c060c52ce" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" />
+  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/prebuilts/sdk" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/prebuilts/tools" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/system/media" />
+  <project path="system/media" name="platform/system/media" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+
+</manifest>
+
+
