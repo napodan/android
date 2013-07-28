@@ -24,12 +24,7 @@ Building the oxygen rom :
 
 . build/envsetup.sh
 
-./bionic/libc/kernel/tools/update_all.py
-
-./bionic/libc/tools/gensyscalls.py
-
-make -j4 oxygen
-
+build
 
 If you want to use mirror instead of server, replace :
 

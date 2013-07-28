@@ -44,7 +44,6 @@
   <remove-project name="platform/external/arduino" />
   <remove-project name="platform/external/bluetooth/bluedroid" />
   <remove-project name="platform/external/ceres-solver" />
-  <remove-project name="platform/external/checkpolicy" />
   <remove-project name="platform/external/chromium-trace" />
   <remove-project name="platform/external/clang" />
   <remove-project name="platform/external/compiler-rt" />
@@ -74,8 +73,6 @@
   <remove-project name="platform/external/libogg" />
   <remove-project name="platform/external/libphonenumber" />
   <remove-project name="platform/external/libppp" />
-  <remove-project name="platform/external/libselinux" />
-  <remove-project name="platform/external/libsepol" />
   <remove-project name="platform/external/libusb" />
   <remove-project name="platform/external/libusb_aah" />
   <remove-project name="platform/external/libusb-compat" />
@@ -109,7 +106,6 @@
   <remove-project name="platform/external/regex-re2" />
   <remove-project name="platform/external/replicaisland" />
   <remove-project name="platform/external/robolectric" />
-  <remove-project name="platform/external/sepolicy" />
   <remove-project name="platform/external/smack" />
   <remove-project name="platform/external/smali" />
   <remove-project name="platform/external/srtp" />
