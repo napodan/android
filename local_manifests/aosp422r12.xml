@@ -4,8 +4,6 @@
   <remove-project name="platform/external/bison" />
   <project path="external/bison" name="platform/external/bison" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="external/dbus" name="platform/external/dbus" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/genext2fs" />
-  <project path="external/genext2fs" name="platform/external/genext2fs" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/external/giflib" />
   <project path="external/giflib" name="platform/external/giflib" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/external/grub" />
@@ -98,8 +96,6 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/external/xmlwriter" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/yaffs2" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/external/zlib" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/frameworks/ex" />
