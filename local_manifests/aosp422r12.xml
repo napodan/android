@@ -4,16 +4,6 @@
   <remove-project name="platform/external/bison" />
   <project path="external/bison" name="platform/external/bison" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="external/dbus" name="platform/external/dbus" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/giflib" />
-  <project path="external/giflib" name="platform/external/giflib" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/grub" />
-  <project path="external/grub" name="platform/external/grub" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/gtest" />
-  <project path="external/gtest" name="platform/external/gtest" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/guava" />
-  <project path="external/guava" name="platform/external/guava" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/hamcrest" />
-  <project path="external/hamcrest" name="platform/external/hamcrest" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/external/iproute2" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/external/ipsec-tools" />
