@@ -4,8 +4,6 @@
   <remove-project name="platform/external/bison" />
   <project path="external/bison" name="platform/external/bison" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="external/dbus" name="platform/external/dbus" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/iproute2" />
-  <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/external/ipsec-tools" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/external/iptables" />
