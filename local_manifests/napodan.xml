@@ -75,7 +75,7 @@
   <project path="system/extras" name="android_system_extras" remote="napodan" revision="newoxygen" />
 
     <remove-project name="platform/system/netd" />
-  <project path="system/netd" name="android_system_netd" remote="napodan" revision="newoxygen" />
+  <project path="system/netd" name="android_system_netd" remote="napodan" revision="oxygen_4.3" />
 
     <remove-project name="platform/system/vold" />
   <project path="system/vold" name="android_system_vold" remote="napodan" revision="newoxygen" />
