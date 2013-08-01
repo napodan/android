@@ -17,7 +17,7 @@
   <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="napodan" revision="newoxygen" />
 
   <remove-project name="platform/external/kernel-headers" />
-  <project path="external/kernel-headers" name="android_external_kernel-headers" remote="napodan" revision="newoxygen" />
+  <project path="external/kernel-headers" name="android_external_kernel-headers" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/external/sqlite" />
   <project path="external/sqlite" name="android_external_sqlite" remote="napodan" revision="newoxygen" />
@@ -27,6 +27,8 @@
 
   <remove-project name="platform/external/webkit" />
   <project path="external/webkit" name="android_external_webkit" remote="napodan" revision="newoxygen" />
+  
+  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="newoxygen" />
