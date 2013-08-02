@@ -4,86 +4,14 @@
   <remove-project name="platform/external/bison" />
   <project path="external/bison" name="platform/external/bison" revision="refs/tags/android-4.2.2_r1.2" />
   <project path="external/dbus" name="platform/external/dbus" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/ipsec-tools" />
-  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/iptables" />
-  <project path="external/iptables" name="platform/external/iptables" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/jdiff" />
-  <project path="external/jdiff" name="platform/external/jdiff" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/jhead" />
-  <project path="external/jhead" name="platform/external/jhead" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/jpeg" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/jsr305" />
-  <project path="external/jsr305" name="platform/external/jsr305" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/junit" />
-  <project path="external/junit" name="platform/external/junit" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/kernel-headers" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="dd8b731fbe68c7e9f8bdc6fcc49397bf0ba93d32" />
-  <remove-project name="platform/external/libffi" />
-  <project path="external/libffi" name="platform/external/libffi" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/libgsm" />
-  <project path="external/libgsm" name="platform/external/libgsm" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/libnfc-nxp" />
-  <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="nxp_nfc" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/libpcap" />
-  <project path="external/libpcap" name="platform/external/libpcap" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/libpng" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/external/libvpx" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/libxml2" />
-  <project path="external/libxml2" name="platform/external/libxml2" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/mtpd" />
-  <project path="external/mtpd" name="platform/external/mtpd" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/netcat" />
-  <project path="external/netcat" name="platform/external/netcat" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/netperf" />
-  <project path="external/netperf" name="platform/external/netperf" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/neven" />
-  <project path="external/neven" name="platform/external/neven" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/nist-sip" />
-  <project path="external/nist-sip" name="platform/external/nist-sip" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/oauth" />
-  <project path="external/oauth" name="platform/external/oauth" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/external/openssl" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/oprofile" />
-  <project path="external/oprofile" name="platform/external/oprofile" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/ping" />
-  <project path="external/ping" name="platform/external/ping" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/ppp" />
-  <project path="external/ppp" name="platform/external/ppp" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/proguard" />
-  <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/protobuf" />
-  <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/qemu" />
-  <project path="external/qemu" name="platform/external/qemu" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/quake" />
-  <project path="external/quake" name="platform/external/quake" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/safe-iop" />
-  <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/sonivox" />
-  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/speex" />
-  <project path="external/speex" name="platform/external/speex" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/srec" />
-  <project path="external/srec" name="platform/external/srec" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/external/stlport" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/strace" />
-  <project path="external/strace" name="platform/external/strace" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/tagsoup" />
-  <project path="external/tagsoup" name="platform/external/tagsoup" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/tcpdump" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/external/tinyxml" />
   <project path="external/tinyxml" name="platform/external/tinyxml" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/tremolo" />
-  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/external/xmlwriter" />
-  <project path="external/xmlwriter" name="platform/external/xmlwriter" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/external/zlib" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/frameworks/ex" />
@@ -95,10 +23,6 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/hardware/qcom/media" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/hardware/ti/wlan" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/ndk" />
   <project path="ndk" name="platform/ndk" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
