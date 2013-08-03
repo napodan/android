@@ -31,7 +31,7 @@
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="newoxygen" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="napodan" revision="newoxygen" />
