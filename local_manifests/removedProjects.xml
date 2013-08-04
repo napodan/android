@@ -40,7 +40,6 @@
   <remove-project name="platform/external/antlr" />
   <remove-project name="platform/external/apache-harmony" />
   <remove-project name="platform/external/apache-qp" />
-  <remove-project name="platform/external/apache-xml" />
   <remove-project name="platform/external/arduino" />
   <remove-project name="platform/external/bluetooth/bluedroid" />
   <remove-project name="platform/external/ceres-solver" />
