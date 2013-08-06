@@ -88,8 +88,6 @@
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="refs/tags/android-2.3.7_r1" />
-  <remove-project name="platform/sdk" />
-  <project path="sdk" name="platform/sdk" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/system/bluetooth" />
   <project path="system/bluetooth" name="platform/system/bluetooth" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/system/core" />
