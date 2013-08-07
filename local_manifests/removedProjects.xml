@@ -44,8 +44,6 @@
   <remove-project name="platform/external/bluetooth/bluedroid" />
   <remove-project name="platform/external/ceres-solver" />
   <remove-project name="platform/external/chromium-trace" />
-  <remove-project name="platform/external/clang" />
-  <remove-project name="platform/external/compiler-rt" />
   <remove-project name="platform/external/dexmaker" />
   <remove-project name="platform/external/doclava" />
   <remove-project name="platform/external/eclipse-basebuilder" />
@@ -80,10 +78,8 @@
   <remove-project name="platform/external/libyuv" />
   <remove-project name="platform/external/linux-tools-perf" />
   <remove-project name="platform/external/littlemock" />
-  <remove-project name="platform/external/llvm" />
   <remove-project name="platform/external/marisa-trie" />
   <remove-project name="platform/external/markdown" />
-  <remove-project name="platform/external/mdnsresponder" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/mockito" />
   <remove-project name="platform/external/mockwebserver" />
