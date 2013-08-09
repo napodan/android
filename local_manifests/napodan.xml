@@ -22,6 +22,9 @@
   <remove-project name="platform/external/kernel-headers" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" remote="napodan" revision="oxygen_4.3" />
 
+  <remove-project name="platform/external/icu4c" />
+  <project path="external/icu4c" name="android_external_icu4c" remote="napodan" revision="oxygen_4.3" />
+
   <remove-project name="platform/external/skia" />
   <project path="external/skia" name="android_external_skia" remote="napodan" revision="oxygen_4.3" />
 
