@@ -71,7 +71,7 @@
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="napodan" revision="oxygen_4.3" />
 
-  <project path="prebuilt" name="android_prebuilt" remote="napodan" revision="oxygen_4.3" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3" name="android_toolchain_arm-eabi-4.4.3" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/prebuilts/tools" />
   <project path="prebuilts/tools" name="android_prebuilts_tools" remote="napodan" revision="newoxygen" />
