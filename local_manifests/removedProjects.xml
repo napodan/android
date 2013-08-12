@@ -37,7 +37,6 @@
   <remove-project name="platform/external/android-clat" />
   <remove-project name="platform/external/android-mock" />
   <remove-project name="platform/external/ant-glob" />
-  <remove-project name="platform/external/antlr" />
   <remove-project name="platform/external/apache-harmony" />
   <remove-project name="platform/external/apache-qp" />
   <remove-project name="platform/external/arduino" />
@@ -45,7 +44,6 @@
   <remove-project name="platform/external/ceres-solver" />
   <remove-project name="platform/external/chromium-trace" />
   <remove-project name="platform/external/dexmaker" />
-  <remove-project name="platform/external/doclava" />
   <remove-project name="platform/external/eclipse-basebuilder" />
   <remove-project name="platform/external/eclipse-windowbuilder" />
   <remove-project name="platform/external/eigen" />
@@ -61,7 +59,6 @@
   <remove-project name="platform/external/javassist" />
   <remove-project name="platform/external/jmdns" />
   <remove-project name="platform/external/jmonkeyengine" />
-  <remove-project name="platform/external/jsilver" />
   <remove-project name="platform/external/libcap-ng" />
   <remove-project name="platform/external/liblzf" />
   <remove-project name="platform/external/libmtp" />
@@ -110,7 +107,6 @@
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinyxml2" />
   <remove-project name="platform/external/valgrind" />
-  <remove-project name="platform/external/webp" />
   <remove-project name="platform/external/webrtc" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/xmp_toolkit" />
@@ -220,7 +216,6 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" />
   <remove-project name="platform/prebuilts/ndk" />
-  <remove-project name="platform/prebuilts/sdk" />
   <remove-project name="platform/sdk" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/tools/adt/eclipse" />
