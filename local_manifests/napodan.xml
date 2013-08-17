@@ -16,6 +16,10 @@
 
   <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="napodan" revision="oxygen_4.3" />
 
+  <project path="external/bluetooth/glib" name="android_external_bluetooth_glib" remote="napodan" revision="oxygen_4.3" />
+
+  <project path="external/busybox" name="android_external_busybox" remote="napodan" revision="oxygen_4.3" />
+
   <remove-project name="platform/external/dbus" />
   <project path="external/dbus" name="android_external_dbus" remote="napodan" revision="oxygen_4.3" />
 

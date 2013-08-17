@@ -2,8 +2,6 @@
 <manifest>
   <project path="device/htc/common" name="android_device_htc_common" remote="CyanogenMod" revision="refs/tags/cm-7.1.0" />
 
-  <project path="external/busybox" name="android_external_busybox" remote="CyanogenMod" revision="refs/tags/cm-10.1-M3" />
-  
   <remove-project name="platform/packages/apps/Camera" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="CyanogenMod" revision="3c82fd65ce263697e6088e95eb02d5bc25d34577" />
 

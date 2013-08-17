@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/external/bouncycastle" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="refs/tags/android-2.3.7_r1" />
