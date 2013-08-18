@@ -152,7 +152,6 @@
   <remove-project name="platform/hardware/ti/omap4xxx" />
   <remove-project name="platform/hardware/ti/wlan" />
   <remove-project name="platform/hardware/ti/wpan" />
-  <remove-project name="platform/libnativehelper" />
   <remove-project name="platform/ndk" />
   <remove-project name="platform/packages/apps/BasicSmsReceiver" />
   <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
