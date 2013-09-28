@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="vendor/oxygen" name="android_vendor_oxygen" remote="napodan" revision="oxygen_4.3" />
-  <project path="vendor/google" name="android_vendor_google" remote="napodan" revision="newoxygen" />
+  <project path="vendor/google" name="android_vendor_google" remote="napodan" revision="oxygen_4.3" />
   <project path="vendor/htc" name="android_vendor_htc" remote="napodan" revision="oxygen_4.3" />
   <project path="vendor/napodan" name="android_vendor_napodan" remote="napodan" revision="oxygen_4.3" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="oxygen" revision="gingerbread" />
