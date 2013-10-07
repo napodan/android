@@ -59,8 +59,6 @@
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/apps/Phone" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" revision="refs/tags/android-2.3.7_r1" />
-  <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/apps/Stk" />
