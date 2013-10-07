@@ -12,9 +12,6 @@
   <remove-project name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_launcher2" remote="oxygen" revision="gingerbread" />
 
-  <remove-project name="platform/packages/apps/Mms" />
-  <project path="packages/apps/Mms" name="android_packages_apps_mms" remote="oxygen" revision="gingerbread" />
-
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_settings" remote="oxygen" revision="gingerbread" />
 
