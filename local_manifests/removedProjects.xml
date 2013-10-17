@@ -50,7 +50,6 @@
   <remove-project name="platform/external/flac" />
   <remove-project name="platform/external/ganymed-ssh2" />
   <remove-project name="platform/external/google-diff-match-patch" />
-  <remove-project name="platform/external/harfbuzz" />
   <remove-project name="platform/external/harfbuzz_ng" />
   <remove-project name="platform/external/hyphenation" />
   <remove-project name="platform/external/jack" />
@@ -70,7 +69,6 @@
   <remove-project name="platform/external/libusb_aah" />
   <remove-project name="platform/external/libusb-compat" />
   <remove-project name="platform/external/libvorbis" />
-  <remove-project name="platform/external/libxslt" />
   <remove-project name="platform/external/libyuv" />
   <remove-project name="platform/external/linux-tools-perf" />
   <remove-project name="platform/external/littlemock" />
