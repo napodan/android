@@ -2,11 +2,6 @@
 <manifest>
   <project path="device/htc/common" name="android_device_htc_common" remote="CyanogenMod" revision="refs/tags/cm-7.1.0" />
 
-  <remove-project name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="CyanogenMod" revision="3c82fd65ce263697e6088e95eb02d5bc25d34577" />
-
-  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="CyanogenMod" revision="894ab4d6e8dccae9da518986bdf08a343d728855" />
-
   <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="CyanogenMod" revision="2d5c64cee5ecd825a7cb21ec4cbf09ea148cc5e7" />
 
 </manifest>

@@ -34,8 +34,6 @@
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="refs/tags/android-2.3.7_r1" />
-  <remove-project name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/apps/DeskClock" />
