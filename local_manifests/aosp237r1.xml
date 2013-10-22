@@ -28,8 +28,6 @@
   <remove-project name="platform/libcore" />
   <project path="libcore" name="platform/libcore" revision="refs/tags/android-2.3.7_r1" />
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" revision="refs/tags/android-2.3.7_r1" />
-  <remove-project name="platform/packages/apps/Bluetooth" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/apps/Calendar" />
