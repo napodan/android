@@ -47,7 +47,7 @@
   <remove-project name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/apps/Stk" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="6cce945599117736376d45eb1f3fb9a6627888af" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/apps/Tag" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
