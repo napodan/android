@@ -30,8 +30,6 @@
   <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="refs/tags/android-2.3.7_r1" />
-  <remove-project name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/apps/DeskClock" />
@@ -54,8 +52,6 @@
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="refs/tags/android-2.3.7_r1" />
-  <remove-project name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/providers/DrmProvider" />
