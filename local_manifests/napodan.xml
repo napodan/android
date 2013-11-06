@@ -20,6 +20,9 @@
 
   <project path="external/busybox" name="android_external_busybox" remote="napodan" revision="oxygen_4.3" />
 
+  <remove-project name="platform/external/clang" />
+  <project path="external/clang" name="android_external_clang" remote="napodan" revision="oxygen_4.3" />
+
   <remove-project name="platform/external/dbus" />
   <project path="external/dbus" name="android_external_dbus" remote="napodan" revision="oxygen_4.3" />
 
@@ -28,6 +31,9 @@
 
   <remove-project name="platform/external/icu4c" />
   <project path="external/icu4c" name="android_external_icu4c" remote="napodan" revision="oxygen_4.3" />
+
+  <remove-project name="platform/external/llvm" />
+  <project path="external/llvm/llvm" name="android_external_llvm" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/external/skia" />
   <project path="external/skia" name="android_external_skia" remote="napodan" revision="oxygen_4.3" />
@@ -45,6 +51,9 @@
 
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="oxygen_4.3" />
+
+  <remove-project name="platform/frameworks/compile/libbcc" />
+  <project path="external/llvm/libbcc" name="android_frameworks_compile_libbcc" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/hardware/broadcom/wlan" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="napodan" revision="oxygen_4.3" />

@@ -109,7 +109,6 @@
   <remove-project name="platform/external/xmp_toolkit" />
   <remove-project name="platform/external/zxing" />
   <remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/frameworks/compile/libbcc" />
   <remove-project name="platform/frameworks/compile/mclinker" />
   <remove-project name="platform/frameworks/compile/slang" />
   <remove-project name="platform/frameworks/mff" />
