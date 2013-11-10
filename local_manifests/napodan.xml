@@ -12,7 +12,7 @@
   <project path="dalvik" name="android_dalvik" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/development" />
-  <project path="development" name="android_development" remote="napodan" revision="oxygen_4.3" />
+  <project path="development" name="android_development" remote="napodan" revision="oxygen_1005" />
 
   <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="napodan" revision="oxygen_4.3" />
 
@@ -94,13 +94,13 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/packages/apps/Email" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="napodan" revision="oxygen_4.3" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="napodan" revision="oxygen_1005" />
 
   <remove-project name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/packages/apps/Mms" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="napodan" revision="oxygen_4.3" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="napodan" revision="oxygen_1005" />
 
   <remove-project name="platform/packages/apps/Phone" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="napodan" revision="oxygen_4.3" />
