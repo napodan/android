@@ -102,6 +102,9 @@
   <remove-project name="platform/packages/apps/Mms" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="napodan" revision="oxygen_1005" />
 
+  <remove-project name="platform/packages/apps/Music" />
+  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="napodan" revision="oxygen_1006" />
+
   <remove-project name="platform/packages/apps/Phone" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="napodan" revision="oxygen_1005" />
 
