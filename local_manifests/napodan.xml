@@ -70,7 +70,7 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/hardware/ril" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="napodan" revision="oxygen_4.3" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="napodan" revision="oxygen_1005" />
 
   <remove-project name="platform/libcore" />
   <project path="libcore" name="android_libcore" remote="napodan" revision="oxygen_4.3" />
