@@ -12,7 +12,7 @@
   <project path="dalvik" name="android_dalvik" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/development" />
-  <project path="development" name="android_development" remote="napodan" revision="oxygen_1005" />
+  <project path="development" name="android_development" remote="napodan" revision="oxygen_1006" />
 
   <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="napodan" revision="oxygen_4.3" />
 
