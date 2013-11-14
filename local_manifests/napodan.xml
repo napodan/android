@@ -6,7 +6,7 @@
   </project>
 
   <remove-project name="platform/bionic" />
-  <project path="bionic" name="android_bionic" remote="napodan" revision="oxygen_1005" />
+  <project path="bionic" name="android_bionic" remote="napodan" revision="oxygen_1006" />
 
   <remove-project name="platform/dalvik" />
   <project path="dalvik" name="android_dalvik" remote="napodan" revision="oxygen_4.3" />
