@@ -50,8 +50,6 @@
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="refs/tags/android-2.3.7_r1" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/providers/UserDictionaryProvider" />
