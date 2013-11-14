@@ -45,12 +45,12 @@
   <project path="external/svox" name="android_external_svox" remote="napodan" revision="oxygen_1005" />
 
   <remove-project name="platform/external/webkit" />
-  <project path="external/webkit" name="android_external_webkit" remote="napodan" revision="oxygen_1005" />
+  <project path="external/webkit" name="android_external_webkit" remote="napodan" revision="oxygen_1006" />
   
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="napodan" revision="oxygen_1005" />
 
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="oxygen_1005" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="oxygen_1006" />
 
   <remove-project name="platform/frameworks/compile/libbcc" />
   <project path="external/llvm/libbcc" name="android_frameworks_compile_libbcc" remote="napodan" revision="oxygen_4.3" />
@@ -94,7 +94,7 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/packages/apps/Email" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="napodan" revision="oxygen_1005" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="napodan" revision="oxygen_1006" />
 
   <remove-project name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="napodan" revision="oxygen_1005" />
@@ -141,7 +141,7 @@
   <project path="system/bluetooth" name="android_system_bluetooth" remote="napodan" revision="oxygen_4.3" />
 
     <remove-project name="platform/system/core" />
-  <project path="system/core" name="android_system_core" remote="napodan" revision="oxygen_1005" />
+  <project path="system/core" name="android_system_core" remote="napodan" revision="oxygen_1006" />
 
     <remove-project name="platform/system/extras" />
   <project path="system/extras" name="android_system_extras" remote="napodan" revision="oxygen_4.3" />
