@@ -56,7 +56,7 @@
   <project path="external/llvm/libbcc" name="android_frameworks_compile_libbcc" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/hardware/broadcom/wlan" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="napodan" revision="oxygen_4.3" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="napodan" revision="oxygen_1006" />
 
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="napodan" revision="oxygen_4.3" />
@@ -82,13 +82,13 @@
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="napodan" revision="oxygen_1005" />
 
   <remove-project name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="napodan" revision="oxygen_1005" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="napodan" revision="oxygen_1006" />
 
   <remove-project name="platform/packages/apps/Camera" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="napodan" revision="oxygen_1005" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="napodan" revision="oxygen_1006" />
 
   <remove-project name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="napodan" revision="oxygen_4.3" />
