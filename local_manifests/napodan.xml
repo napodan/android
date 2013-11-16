@@ -62,7 +62,7 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="napodan" revision="oxygen_1006" />
 
   <remove-project name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="napodan" revision="oxygen_4.3" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="napodan" revision="oxygen_1006" />
 
   <remove-project name="platform/hardware/libhardware_legacy" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="napodan" revision="oxygen_1005" />
