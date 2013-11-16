@@ -125,7 +125,6 @@
   <remove-project name="platform/frameworks/opt/photoviewer" />
   <remove-project name="platform/frameworks/opt/timezonepicker" />
   <remove-project name="platform/frameworks/opt/telephony" />
-  <remove-project name="platform/frameworks/opt/vcard" />
   <remove-project name="platform/frameworks/rs" />
   <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/frameworks/testing" />

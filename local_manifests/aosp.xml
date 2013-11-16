@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="platform/frameworks/opt/vcard" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="4199c54c527330ac01699b176e7bca186a3aa3a4" />
+
+</manifest>
+
+  
