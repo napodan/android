@@ -131,7 +131,6 @@
   <remove-project name="platform/frameworks/testing" />
   <remove-project name="platform/frameworks/volley" />
   <remove-project name="platform/frameworks/webview" />
-  <remove-project name="platform/frameworks/wilhelm" />
   <remove-project name="platform/hardware/akm" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/invensense" />
