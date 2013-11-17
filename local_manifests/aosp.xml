@@ -2,7 +2,7 @@
 <manifest>
 
   <remove-project name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="4199c54c527330ac01699b176e7bca186a3aa3a4" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="147f1ae5371954ae845cb2330b221df6ca1d8831" />
 
 </manifest>
 
