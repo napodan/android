@@ -118,7 +118,7 @@
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="napodan" revision="newoxygen" />
 
   <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="napodan" revision="oxygen_1005" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="napodan" revision="oxygen_1006" />
 
   <remove-project name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="napodan" revision="oxygen_4.3" />
