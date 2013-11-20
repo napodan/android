@@ -63,7 +63,6 @@
   <remove-project name="platform/external/libnfc-nci" />
   <remove-project name="platform/external/libnl-headers" />
   <remove-project name="platform/external/libogg" />
-  <remove-project name="platform/external/libphonenumber" />
   <remove-project name="platform/external/libppp" />
   <remove-project name="platform/external/libusb" />
   <remove-project name="platform/external/libusb_aah" />
