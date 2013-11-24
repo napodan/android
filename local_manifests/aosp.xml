@@ -4,6 +4,9 @@
   <remove-project name="platform/external/libphonenumber" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="d644aa0ae3dea867301bead6f7dc27ac19189db4" />
 
+    <remove-project name="platform/external/v8" />
+  <project path="external/v8" name="platform/external/v8" revision="a94adf74b8a91ff002b9cade1736e5c4a50d52fb" />
+
   <remove-project name="platform/frameworks/opt/vcard" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="147f1ae5371954ae845cb2330b221df6ca1d8831" />
 
