@@ -6,8 +6,6 @@
   <project path="external/dbus" name="platform/external/dbus" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
   <remove-project name="platform/external/libvpx" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
-  <remove-project name="platform/frameworks/ex" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" revision="a3684d4db1a0505efc26d6c9ccedd76a71550e5b" />
 
 </manifest>
 

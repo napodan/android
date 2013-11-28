@@ -55,6 +55,9 @@
   <remove-project name="platform/frameworks/compile/libbcc" />
   <project path="external/llvm/libbcc" name="android_frameworks_compile_libbcc" remote="napodan" revision="oxygen_1006" />
 
+  <remove-project name="platform/frameworks/ex" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="napodan" revision="oxygen_1006" />
+
   <remove-project name="platform/frameworks/wilhelm" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="napodan" revision="oxygen_1006" />
 
@@ -153,7 +156,7 @@
   <project path="system/core" name="android_system_core" remote="napodan" revision="oxygen_1006" />
 
     <remove-project name="platform/system/extras" />
-  <project path="system/extras" name="android_system_extras" remote="napodan" revision="oxygen_4.3" />
+  <project path="system/extras" name="android_system_extras" remote="napodan" revision="oxygen_1006" />
 
     <remove-project name="platform/system/netd" />
   <project path="system/netd" name="android_system_netd" remote="napodan" revision="oxygen_4.3" />
