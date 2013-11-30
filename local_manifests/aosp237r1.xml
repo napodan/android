@@ -5,8 +5,6 @@
   <remove-project name="platform/external/chromium" />
   <project path="external/chromium" name="platform/external/chromium" revision="refs/tags/android-2.3.7_r1" />
   <project path="external/clearsilver" name="platform/external/clearsilver" revision="refs/tags/android-2.3.7_r1" />
-  <remove-project name="platform/external/harfbuzz" />
-  <project path="external/harfbuzz" name="platform/external/harfbuzz" revision="9c3caf546f7c14c497d6c83d16b89e01b9ee9e3f" />
   <remove-project name="platform/external/icu4c" />
   <project path="external/icu4c" name="platform/external/icu4c" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/external/sqlite" />
