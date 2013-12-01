@@ -42,7 +42,7 @@
   <project path="external/sqlite" name="android_external_sqlite" remote="napodan" revision="oxygen_1006" />
 
   <remove-project name="platform/external/svox" />
-  <project path="external/svox" name="android_external_svox" remote="napodan" revision="oxygen_1005" />
+  <project path="external/svox" name="android_external_svox" remote="napodan" revision="oxygen_1006" />
 
   <remove-project name="platform/external/webkit" />
   <project path="external/webkit" name="android_external_webkit" remote="napodan" revision="oxygen_1006" />
