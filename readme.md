@@ -1,6 +1,11 @@
+Known issues :
+- FC in Browser with some web site (bug in the last webkit)
+- Contacts unusuable (you need 3rd party to manage contacts)
+
+
 Getting the oxygen sources :
 
-repo init -u git://github.com/napodan/android -b oxygen_4.3
+repo init -u git://github.com/napodan/android -b oxygen_1006
 
 You will got an error message :
 
