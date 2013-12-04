@@ -4,6 +4,9 @@
   <remove-project name="platform/external/harfbuzz" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" revision="bc5032157caeb9e460d05f147c010fe9df851f4c" />
 
+    <remove-project name="platform/external/iproute2" />
+  <project path="external/iproute2" name="platform/external/iproute2" revision="ef1d8bcf963fc15c12c80822063355f91797ac9e" />
+
   <remove-project name="platform/external/libphonenumber" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="d644aa0ae3dea867301bead6f7dc27ac19189db4" />
 
