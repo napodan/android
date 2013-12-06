@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="platform/build" />
-  <project path="build" name="android_build" remote="napodan" revision="oxygen_1006">
+  <project path="build" name="android_build" remote="napodan" revision="oxygen_1007">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
