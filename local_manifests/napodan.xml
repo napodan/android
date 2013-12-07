@@ -88,13 +88,13 @@
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="napodan" revision="oxygen_1007" />
 
   <remove-project name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="napodan" revision="oxygen_1006" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="napodan" revision="oxygen_1007" />
 
   <remove-project name="platform/packages/apps/Camera" />
   <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="napodan" revision="oxygen_1006" />
+  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="napodan" revision="oxygen_1007" />
 
   <remove-project name="platform/packages/apps/Contacts" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="napodan" revision="oxygen_1006" />
@@ -103,7 +103,7 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="napodan" revision="oxygen_1006" />
 
   <remove-project name="platform/packages/apps/Email" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="napodan" revision="oxygen_1006" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="napodan" revision="oxygen_1007" />
 
   <project path="packages/apps/Gallery3D" name="android_packages_apps_Gallery3D" remote="napodan" revision="oxygen_1006" />
 
@@ -126,7 +126,7 @@
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="napodan" revision="newoxygen" />
 
   <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="napodan" revision="oxygen_1006" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="napodan" revision="oxygen_1007" />
 
   <remove-project name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="napodan" revision="oxygen_1006" />
@@ -138,7 +138,7 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="napodan" revision="oxygen_1006" />
   
   <remove-project name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="napodan" revision="oxygen_1006" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="napodan" revision="oxygen_1007" />
 
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="napodan" revision="oxygen_4.3" />
@@ -155,7 +155,7 @@
   <project path="system/bluetooth" name="android_system_bluetooth" remote="napodan" revision="oxygen_4.3" />
 
     <remove-project name="platform/system/core" />
-  <project path="system/core" name="android_system_core" remote="napodan" revision="oxygen_1006" />
+  <project path="system/core" name="android_system_core" remote="napodan" revision="oxygen_1007" />
 
     <remove-project name="platform/system/extras" />
   <project path="system/extras" name="android_system_extras" remote="napodan" revision="oxygen_1006" />
