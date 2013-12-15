@@ -14,7 +14,7 @@
   <project path="external/v8" name="platform/external/v8" revision="50ef84f5fad2def87d3fbc737bec4a32711fdef4" />
 
   <remove-project name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="147f1ae5371954ae845cb2330b221df6ca1d8831" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="d5a8fc2a35c69fc34df35fd545ccf83d548ba50c" />
 
 </manifest>
 
