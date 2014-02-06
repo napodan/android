@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/external/bouncycastle" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/external/chromium" />
+  <project path="external/chromium" name="platform/external/chromium" revision="refs/tags/android-2.3.7_r1" />
+  <project path="external/clearsilver" name="platform/external/clearsilver" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/external/icu4c" />
+  <project path="external/icu4c" name="platform/external/icu4c" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/external/sqlite" />
+  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/external/svox" />
+  <project path="external/svox" name="platform/external/svox" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/external/webp" />
+  <project path="external/webp" name="platform/external/webp" revision="9aea642eefa7a641ab8b89d953251939221d2719" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/hardware/msm7k" />
+  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/hardware/ril" />
+  <project path="hardware/ril" name="platform/hardware/ril" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/libcore" />
+  <project path="libcore" name="platform/libcore" revision="refs/tags/android-2.3.7_r1" />
+  <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/packages/apps/Calculator" />
+  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/packages/apps/Phone" />
+  <project path="packages/apps/Phone" name="platform/packages/apps/Phone" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/packages/apps/SoundRecorder" />
+  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/packages/apps/Stk" />
+  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/packages/apps/Tag" />
+  <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/packages/providers/ApplicationsProvider" />
+  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/packages/providers/DrmProvider" />
+  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/packages/providers/UserDictionaryProvider" />
+  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/packages/wallpapers/LivePicker" />
+  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/system/bluetooth" />
+  <project path="system/bluetooth" name="platform/system/bluetooth" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/system/core" />
+  <project path="system/core" name="platform/system/core" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/system/extras" />
+  <project path="system/extras" name="platform/system/extras" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/system/netd" />
+  <project path="system/netd" name="platform/system/netd" revision="refs/tags/android-2.3.7_r1" />
+  <remove-project name="platform/system/vold" />
+  <project path="system/vold" name="platform/system/vold" revision="refs/tags/android-2.3.7_r1" />
+
+</manifest>
+
+  

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="platform/external/bison" />
+  <project path="external/bison" name="platform/external/bison" revision="refs/tags/android-4.2.2_r1.2" />
+  <project path="external/dbus" name="platform/external/dbus" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+  <remove-project name="platform/external/libvpx" />
+  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" revision="refs/tags/android-4.2.2_r1.2" />
+
+</manifest>
+
+

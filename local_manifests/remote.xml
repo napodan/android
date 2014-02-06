@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="aosp"
+           fetch="https://android-review.googlesource.com/" />
+  <remote  name="napodan"
+           fetch="git://github.com/napodan/" />
+  <remote  name="Evervolv"
+           fetch="git://github.com/evervolv/"
+           review="review.evervolv.com"/>
+  <remote  name="CyanogenMod"
+           fetch="git://github.com/CyanogenMod" />
+  <remote  name="oxygen"
+           fetch="git://github.com/oxygen-rom-gb" />
+</manifest>
+
+
