@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="platform/abi/cpp" />
+  <remove-project name="platform/art" />
   <remove-project name="platform/bootable/bootloader/legacy" />
   <remove-project name="platform/bootable/diskinstaller" />
   <remove-project name="platform/cts" />
