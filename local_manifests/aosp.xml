@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" revision="refs/tags/android-4.3_r2.1" />
+
   <remove-project name="platform/external/harfbuzz" />
   <project path="external/harfbuzz" name="platform/external/harfbuzz" revision="bc5032157caeb9e460d05f147c010fe9df851f4c" />
 
@@ -15,4 +18,3 @@
 
 </manifest>
 
-  
