@@ -40,7 +40,6 @@
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="refs/tags/android-2.3.7_r1" />
-  <remove-project name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" revision="refs/tags/android-2.3.7_r1" />
@@ -48,8 +47,6 @@
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" revision="refs/tags/android-2.3.7_r1" />
-  <remove-project name="platform/system/bluetooth" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="platform/system/core" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/system/extras" />

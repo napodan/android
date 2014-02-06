@@ -150,7 +150,6 @@
   <remove-project name="platform/prebuilts/tools" />
   <project path="prebuilts/tools" name="android_prebuilts_tools" remote="napodan" revision="newoxygen" />
 
-    <remove-project name="platform/system/bluetooth" />
   <project path="system/bluetooth" name="android_system_bluetooth" remote="napodan" revision="oxygen_4.3" />
 
     <remove-project name="platform/system/core" />
