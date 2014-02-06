@@ -9,7 +9,7 @@
   <project path="bionic" name="android_bionic" remote="napodan" revision="oxygen_4.4.2_r1" />
 
   <remove-project name="platform/dalvik" />
-  <project path="dalvik" name="android_dalvik" remote="napodan" revision="oxygen_4.3" />
+  <project path="dalvik" name="android_dalvik" remote="napodan" revision="oxygen_4.4.2_r1" />
 
   <remove-project name="platform/development" />
   <project path="development" name="android_development" remote="napodan" revision="oxygen_1006" />

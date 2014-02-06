@@ -8,8 +8,8 @@
   <remove-project name="device/asus/deb" />
   <remove-project name="device/asus/flo" />
   <remove-project name="device/asus/flo-kernel" />
+  <remove-project name="device/asus/grouper" />
   <remove-project name="device/asus/tilapia" />
-  <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="device/generic/common" />
   <remove-project name="device/generic/goldfish" />
   <remove-project name="device/generic/mips" />
@@ -19,6 +19,8 @@
   <remove-project name="device/generic/x86" />
   <remove-project name="device/google/accessory/arduino" />
   <remove-project name="device/google/accessory/demokit" />
+  <remove-project name="device/lge/hammerhead" />
+  <remove-project name="device/lge/hammerhead-kernel" />
   <remove-project name="device/lge/mako" />
   <remove-project name="device/lge/mako-kernel" />
   <remove-project name="device/samsung/manta" />
