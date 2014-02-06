@@ -38,7 +38,9 @@
   <remove-project name="platform/external/arduino" />
   <remove-project name="platform/external/bluetooth/bluedroid" />
   <remove-project name="platform/external/ceres-solver" />
+  <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/chromium-trace" />
+  <remove-project name="platform/external/chromium_org" />
   <remove-project name="platform/external/dexmaker" />
   <remove-project name="platform/external/eclipse-basebuilder" />
   <remove-project name="platform/external/eclipse-windowbuilder" />

@@ -14,7 +14,7 @@
   <remove-project name="platform/development" />
   <project path="development" name="android_development" remote="napodan" revision="oxygen_1006" />
 
-  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="napodan" revision="oxygen_1006" />
+  <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="napodan" revision="oxygen_4.4.2_r1" />
 
   <project path="external/bluetooth/glib" name="android_external_bluetooth_glib" remote="napodan" revision="oxygen_4.3" />
 
