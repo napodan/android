@@ -44,7 +44,6 @@
   <remove-project name="platform/external/svox" />
   <project path="external/svox" name="android_external_svox" remote="napodan" revision="oxygen_1006" />
 
-  <remove-project name="platform/external/webkit" />
   <project path="external/webkit" name="android_external_webkit" remote="napodan" revision="oxygen_1006" />
   
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="napodan" revision="oxygen_1006" />

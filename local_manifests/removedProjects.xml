@@ -20,13 +20,7 @@
   <remove-project name="device/google/accessory/demokit" />
   <remove-project name="device/lge/mako" />
   <remove-project name="device/lge/mako-kernel" />
-  <remove-project name="device/samsung/maguro" />
   <remove-project name="device/samsung/manta" />
-  <remove-project name="device/samsung/toro" />
-  <remove-project name="device/samsung/toroplus" />
-  <remove-project name="device/samsung/tuna" />
-  <remove-project name="device/samsung_slsi/arndale" />
-  <remove-project name="device/ti/panda" />
   <remove-project name="platform/developers/build" />
   <remove-project name="platform/developers/demos" />
   <remove-project name="platform/developers/docs" />
@@ -65,7 +59,6 @@
   <remove-project name="platform/external/libogg" />
   <remove-project name="platform/external/libppp" />
   <remove-project name="platform/external/libusb" />
-  <remove-project name="platform/external/libusb_aah" />
   <remove-project name="platform/external/libusb-compat" />
   <remove-project name="platform/external/libvorbis" />
   <remove-project name="platform/external/libyuv" />
@@ -88,9 +81,7 @@
   <remove-project name="platform/external/opencv" />
   <remove-project name="platform/external/openfst" />
   <remove-project name="platform/external/openssh" />
-  <remove-project name="platform/external/ping6" />
   <remove-project name="platform/external/qemu-pc-bios" />
-  <remove-project name="platform/external/quake" />
   <remove-project name="platform/external/regex-re2" />
   <remove-project name="platform/external/replicaisland" />
   <remove-project name="platform/external/robolectric" />
