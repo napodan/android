@@ -17,8 +17,6 @@
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" revision="refs/tags/android-2.3.7_r1" />
-  <remove-project name="platform/hardware/msm7k" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/hardware/ril" />
   <project path="hardware/ril" name="platform/hardware/ril" revision="refs/tags/android-2.3.7_r1" />
   <remove-project name="platform/libcore" />

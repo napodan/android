@@ -70,7 +70,6 @@
   <remove-project name="platform/hardware/libhardware_legacy" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="napodan" revision="oxygen_1006" />
 
-  <remove-project name="platform/hardware/msm7k" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="napodan" revision="oxygen_4.3" />
 
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="napodan" revision="oxygen_4.3" />
