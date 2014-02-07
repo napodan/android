@@ -95,8 +95,10 @@
   <remove-project name="platform/external/libyuv" />
   <remove-project name="platform/external/linux-tools-perf" />
   <remove-project name="platform/external/littlemock" />
+  <remove-project name="platform/external/lzma" />
   <remove-project name="platform/external/marisa-trie" />
   <remove-project name="platform/external/markdown" />
+  <remove-project name="platform/external/mesa3d" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/mockito" />
   <remove-project name="platform/external/mockwebserver" />
@@ -112,10 +114,14 @@
   <remove-project name="platform/external/opencv" />
   <remove-project name="platform/external/openfst" />
   <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/pixman" />
   <remove-project name="platform/external/qemu-pc-bios" />
   <remove-project name="platform/external/regex-re2" />
   <remove-project name="platform/external/replicaisland" />
   <remove-project name="platform/external/robolectric" />
+  <remove-project name="platform/external/scrypt" />
+  <remove-project name="platform/external/sfntly" />
+  <remove-project name="platform/external/sil-fonts" />
   <remove-project name="platform/external/smack" />
   <remove-project name="platform/external/smali" />
   <remove-project name="platform/external/srtp" />
