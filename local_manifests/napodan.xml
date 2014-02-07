@@ -27,7 +27,7 @@
   <project path="external/dbus" name="android_external_dbus" remote="napodan" revision="oxygen_4.3" />
 
   <remove-project name="platform/external/kernel-headers" />
-  <project path="external/kernel-headers" name="android_external_kernel-headers" remote="napodan" revision="oxygen_1006" />
+  <project path="external/kernel-headers" name="android_external_kernel-headers" remote="napodan" revision="oxygen_4.4.2_r1" />
 
   <remove-project name="platform/external/icu4c" />
   <project path="external/icu4c" name="android_external_icu4c" remote="napodan" revision="oxygen_4.3" />
