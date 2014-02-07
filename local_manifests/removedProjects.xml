@@ -66,6 +66,7 @@
   <remove-project name="platform/external/chromium_org/v8" />
 
   <remove-project name="platform/external/dexmaker" />
+  <remove-project name="platform/external/droiddriver" />
   <remove-project name="platform/external/eclipse-basebuilder" />
   <remove-project name="platform/external/eclipse-windowbuilder" />
   <remove-project name="platform/external/eigen" />
