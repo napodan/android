@@ -19,7 +19,6 @@
   <remove-project name="platform/external/libphonenumber" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" revision="d644aa0ae3dea867301bead6f7dc27ac19189db4" />
 
-  <remove-project name="platform/external/ping" />
   <project path="external/ping" name="platform/external/ping" revision="refs/tags/android-4.3_r2.1" />
 
     <remove-project name="platform/external/v8" />
