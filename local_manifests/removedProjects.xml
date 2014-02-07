@@ -76,6 +76,7 @@
   <remove-project name="platform/external/google-diff-match-patch" />
   <remove-project name="platform/external/harfbuzz_ng" />
   <remove-project name="platform/external/hyphenation" />
+  <remove-project name="platform/external/iputils" />
   <remove-project name="platform/external/jack" />
   <remove-project name="platform/external/javasqlite" />
   <remove-project name="platform/external/javassist" />
