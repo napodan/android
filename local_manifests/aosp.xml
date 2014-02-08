@@ -27,5 +27,8 @@
   <remove-project name="platform/frameworks/opt/vcard" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" revision="147f1ae5371954ae845cb2330b221df6ca1d8831" />
 
+  <remove-project name="platform/libnativehelper" />
+  <project path="libnativehelper" name="platform/libnativehelper" revision="refs/tags/android-4.3_r2.1" />
+
 </manifest>
 
