@@ -49,7 +49,7 @@
   <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6" remote="napodan" revision="oxygen_1006" />
 
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="oxygen_1006" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="napodan" revision="oxygen_4.4.2_r1" />
 
   <remove-project name="platform/frameworks/compile/libbcc" />
   <project path="external/llvm/libbcc" name="android_frameworks_compile_libbcc" remote="napodan" revision="oxygen_1006" />
