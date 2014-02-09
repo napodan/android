@@ -152,7 +152,7 @@
   <project path="system/bluetooth" name="android_system_bluetooth" remote="napodan" revision="oxygen_4.3" />
 
     <remove-project name="platform/system/core" />
-  <project path="system/core" name="android_system_core" remote="napodan" revision="oxygen_1006" />
+  <project path="system/core" name="android_system_core" remote="napodan" revision="oxygen_4.4.2_r1" />
 
     <remove-project name="platform/system/extras" />
   <project path="system/extras" name="android_system_extras" remote="napodan" revision="oxygen_1006" />
