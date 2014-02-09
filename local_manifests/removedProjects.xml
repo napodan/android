@@ -210,6 +210,7 @@
   <remove-project name="platform/packages/screensavers/Basic" />
   <remove-project name="platform/packages/screensavers/PhotoTable" />
   <remove-project name="platform/packages/screensavers/WebView" />
+  <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/wallpapers/Basic" />
   <remove-project name="platform/packages/wallpapers/Galaxy4" />
   <remove-project name="platform/packages/wallpapers/HoloSpiral" />  
@@ -220,8 +221,16 @@
   <remove-project name="platform/pdk" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
   <remove-project name="platform/prebuilts/clang/linux-x86/3.1" />
   <remove-project name="platform/prebuilts/clang/linux-x86/3.2" />
+  <remove-project name="platform/prebuilts/clang/linux-x86/arm/3.3" />
+  <remove-project name="platform/prebuilts/clang/linux-x86/host/3.3" />
+  <remove-project name="platform/prebuilts/clang/linux-x86/mips/3.3" />
+  <remove-project name="platform/prebuilts/clang/linux-x86/x86/3.3" />
   <remove-project name="platform/prebuilts/devtools" />
   <remove-project name="platform/prebuilts/eclipse" />
   <remove-project name="platform/prebuilts/eclipse-build-deps" />
@@ -236,6 +245,7 @@
   <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" />
