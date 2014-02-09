@@ -257,6 +257,7 @@
   <remove-project name="platform/prebuilts/ndk" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
   <remove-project name="platform/prebuilts/python/linux-x86/2.7.5" />
+  <remove-project name="platform/prebuilts/runtime" />
   <remove-project name="platform/sdk" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/tools/adt/eclipse" />
