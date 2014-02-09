@@ -30,5 +30,8 @@
   <remove-project name="platform/libnativehelper" />
   <project path="libnativehelper" name="platform/libnativehelper" revision="refs/tags/android-4.3_r2.1" />
 
+  <remove-project name="platform/packages/apps/HTMLViewer" />
+  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="refs/tags/android-4.3_r2.1" />
+
 </manifest>
 
