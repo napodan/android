@@ -6,10 +6,10 @@
   </project>
 
   <remove-project name="platform/bionic" />
-  <project path="bionic" name="android_bionic" remote="napodan" revision="oxygen_4.4.2_r1" />
+  <project path="bionic" name="android_bionic" remote="napodan" revision="oxygen_4.4.2_r2" />
 
   <remove-project name="platform/dalvik" />
-  <project path="dalvik" name="android_dalvik" remote="napodan" revision="oxygen_4.4.2_r1" />
+  <project path="dalvik" name="android_dalvik" remote="napodan" revision="oxygen_4.4.2_r2" />
 
   <remove-project name="platform/development" />
   <project path="development" name="android_development" remote="napodan" revision="oxygen_1006" />
@@ -152,7 +152,7 @@
   <project path="system/bluetooth" name="android_system_bluetooth" remote="napodan" revision="oxygen_4.3" />
 
     <remove-project name="platform/system/core" />
-  <project path="system/core" name="android_system_core" remote="napodan" revision="oxygen_4.4.2_r1" />
+  <project path="system/core" name="android_system_core" remote="napodan" revision="oxygen_4.4.2_r2" />
 
     <remove-project name="platform/system/extras" />
   <project path="system/extras" name="android_system_extras" remote="napodan" revision="oxygen_1006" />
