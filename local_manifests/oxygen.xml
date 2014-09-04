@@ -5,9 +5,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <remove-project name="platform/bionic" />
-  <project path="bionic" name="android_bionic" remote="oxygen" revision="gingerbread" />
-
   <remove-project name="platform/bootable/recovery" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="oxygen" revision="gingerbread" />
 
