@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="platform/build" />
-  <project path="build" name="android_build" remote="oxygen" revision="gingerbread">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
   <remove-project name="device/htc/passion" />
   <project path="device/htc/passion" name="android_device_htc_passion" remote="oxygen" revision="gingerbread" />
 
