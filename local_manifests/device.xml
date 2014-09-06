@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="napodan" revision="oxygen" />
+  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="napodan" revision="bravo_2.3.7_r1" />
   <project path="device/htc/bravoc" name="android_device_htc_bravoc" remote="oxygen" revision="gingerbread" />
 
 
